@@ -1,4 +1,4 @@
-![banner](https://github.com/Comrade-Karfen/DifferentThings/blob/main/Assets/banner.png)
+![banner](https://github.com/Comrade-Karfen/DifferentThings/blob/main/Assets/Banner.png)
 
   <p align="center">
     <a href="https://github.com/Comrade-Karfen/DifferentThings/releases/latest">
