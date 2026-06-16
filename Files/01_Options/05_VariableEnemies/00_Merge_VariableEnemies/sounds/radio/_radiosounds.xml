@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<RadioSounds>
+    <Group
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Arabs"
+        belongs="1023 1025"/>
+
+    <Group
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Kurta"
+        belongs="1024">
+        <Neutral>
+
+        </Neutral>
+
+        <Enemy>
+            <Sound
+                id="first_see_other"
+                samples="150 151"
+                probability="40"/>
+
+            <Sound
+                id="enemy_broken"
+                samples="152 153 156"
+                probability="30"/>
+
+            <Sound
+                id="self_broken"
+                samples="148 154 155"
+                probability="30"/>
+
+            <Sound
+                id="enemy_died"
+                samples="156 157"
+                probability="40"/>
+
+            <Sound
+                id="self_died"
+                samples="158 159 160"
+                probability="30"/>
+
+            <Sound
+                id="neutral_died"
+                samples="161"
+                probability="20"/>
+        </Enemy>
+    </Group>
+
+    <Group
+        _Action="Add"
+        _SelectorKeys="name"
+        name="Killers"
+        belongs="1006">
+        <Neutral>
+
+        </Neutral>
+
+        <Enemy>
+            <Sound
+                id="first_see_other"
+                samples="121 122"
+                probability="30"/>
+
+            <Sound
+                id="enemy_broken"
+                samples="123 124"
+                probability="20"/>
+
+            <Sound
+                id="self_broken"
+                samples="125 129 132"
+                probability="20"/>
+
+            <Sound
+                id="enemy_died"
+                samples="127"
+                probability="30"/>
+        </Enemy>
+    </Group>
+</RadioSounds>

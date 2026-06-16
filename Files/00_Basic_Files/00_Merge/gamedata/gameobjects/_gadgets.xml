@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="anti_missile_system"
+        ResourceType="GADGET_WEAPON"
+        Price="5700"
+		Modifications		= "VEHICLE GadgetAntiMissileRadius += 75"
+        ModelFile="gadget_12"/>
+</Prototypes>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheFist']/Object[@Name='Fist_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheFist']/Object[@Name='Fist_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheFist']/Object[@Name='Fist_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheFist']/Object[@Name='Fist_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheFist']/Object[@Name='Fist_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="CruiserEnemySpawn">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSet']/Object[@Name='Set_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSet']/Object[@Name='Set_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSet']/Object[@Name='Set_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSet']/Object[@Name='Set_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSet']/Object[@Name='Set_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheUluk']/Object[@Name='Uluk_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheUluk']/Object[@Name='Uluk_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheUluk']/Object[@Name='Uluk_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheUluk']/Object[@Name='Uluk_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCargo02"/>
+</DynamicScene>

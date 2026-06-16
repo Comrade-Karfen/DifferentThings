@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="tankCab01"
+        locForm="0"
+        value="Корпус Танка"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="tankCargo01"
+        locForm="0"
+        value="Грузовой отсек"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="SkatEnemySpawn"
+        locForm="0"
+        value="Скат"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="skatCab01"
+        locForm="0"
+        value="Кабина"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="skatCargo01"
+        locForm="0"
+        value="Грузовой отсек"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="BulldogForSale"
+        locForm="0"
+        value="Бульдог"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="Bulldog01"
+        locForm="0"
+        value="Бульдог"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="BulldogRace"
+        locForm="0"
+        value="Бульдог GT"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="BulldogRace_NoPlayer"
+        locForm="0"
+        value="Бульдог GT"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCabRace"
+        locForm="0"
+        value="Кабина"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCab01"
+        locForm="0"
+        value="Путник"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCab02"
+        locForm="0"
+        value="Скиталец"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCargo00"
+        locForm="0"
+        value="Багажник"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCargo01"
+        locForm="1"
+        value="Запаска"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCargo02"
+        locForm="0"
+        value="Ящик"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="ares01"
+        locForm="0"
+        value="Арес"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="fly01"
+        locForm="1"
+        value="Муха"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bofors01"
+        locForm="0"
+        value="Бофорс"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="hunterLauncher"
+        locForm="0"
+        value="Зверобой"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="hunterLauncher_unlimit"
+        locForm="0"
+        value="Зверобой"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="needle01"
+        locForm="1"
+        value="Игла"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="abzac01"
+        locForm="0"
+        value="Абзац"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="hornetA01"
+        locForm="0"
+		value="Американский Шершень" />		
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="vulcan02"
+        locForm="0"
+		value="Вулкан-MK2" />
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="rapier02"
+        locForm="0"
+		value="Триплет" />
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="pktu01"
+        locForm="0"
+		value="ПКТУ" />
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="pkt02"
+        locForm="0"
+		value="Печенег" />
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="browning01"
+        locForm="0"
+		value="Браунинг" />		
+</ModelNames>

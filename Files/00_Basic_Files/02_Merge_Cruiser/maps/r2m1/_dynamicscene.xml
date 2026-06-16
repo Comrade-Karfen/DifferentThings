@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTuzz']/Object[@Name='TheTuzz_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTuzz']/Object[@Name='TheTuzz_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTuzz']/Object[@Name='TheTuzz_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTuzz']/Object[@Name='TheTuzz_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="CruiserEnemySpawn">
+        <Parts/>
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="cruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="cruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="CruiserEnemySpawn">
+        <Parts/>
+        <Repository/>
+    </Item>
+</DynamicScene>

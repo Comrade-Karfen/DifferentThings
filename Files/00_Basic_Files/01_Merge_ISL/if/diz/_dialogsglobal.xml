@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DialogsResource>
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_npc_001415"
+        text="Стой, стой, не горячись. Сегодня утром кто-то пытался связаться со мной по рации. Голос действительно был похож на моего товарища из Южного. А теперь заявляешься ты и требуешь пушку. Ладно, я тебе поверю. Муха или Печенег?"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_npc_001417"
+        text="Никогда о таких не слышал? Ясное дело, в этих краях такого вооружения не встретишь. Давай объясню. Муха - это пушка. Убойная вещь, но стреляет не очень быстро. А Печенег - это пулемёт. Оружие посерьёзнее, чем твоё, но убойности от него не жди. Придётся выцеливать издалека. Итак, что берёшь?"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_pl_001427"
+        text="Муха."
+        scriptResult="AddPlayerItemsWithBox( 'fly01', 1, 0, CVector(3229,319,1254))"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_pl_001418"
+        text="Печенег."
+        scriptResult="AddPlayerItemsWithBox( 'pkt02', 1, 0, CVector(3229,319,1254))"/>
+</DialogsResource>

@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<AnimatedModels>
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ares01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_ares01.gam"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ares01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_ares01_gun.gam">
+		<action
+			name="DEATH1"
+			skin="8"/>
+
+		<action
+			name="DEATH2"
+			skin="8"/>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_ELEPHANT_FIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		_Action="Add"
+		_SelectorKeys="id"
+		id="skatSusp01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\skat\suspension01.gam">
+		<action
+			name="DEATH1"
+			skin="8" />
+
+		<action
+			name="DEATH2"
+			skin="8" />
+	</model>
+
+	<model
+		_Action="Add"
+		_SelectorKeys="id"
+		id="skatChassis"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\vehicles\skat\shassis01.gam">
+		<action
+			name="DEATH1"
+			skin="8">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="DEATH2"
+			skin="8">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		_Action="Add"
+		_SelectorKeys="id"
+		id="skatCab01"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\vehicles\skat\cab01.gam">
+		<action
+			name="DEATH1"
+			skin="8">
+			<lp
+				id="8"
+				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="DEATH2"
+			skin="8">
+			<lp
+				id="8"
+				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_PROJECTOR_SCOUT_CAB01"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		_Action="Add"
+		_SelectorKeys="id"
+		id="skatCargo01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\skat\cargo01.gam">
+		<action
+			name="DEATH1"
+			skin="8" />
+
+		<action
+			name="DEATH2"
+			skin="8" />
+	</model>
+
+	<model
+		_Action="Add"
+		_SelectorKeys="id"
+		id="skatWheel01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\skat\wheel01.gam">
+		<action
+			skin="8" 
+			name="DEATH1" >
+		<lp
+			id="8"
+			effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+			restartOnAnimationChange="1"
+			ImmediateRemove="0" />
+		</action>
+
+		<action
+			skin="8" 
+			name="DEATH2">
+		<lp
+			id="8"
+			effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+			restartOnAnimationChange="1"
+			ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		_Action="Add"
+		_SelectorKeys="id"
+		id="skatWheel02"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\skat\wheel02.gam">
+		<action
+			skin="8" 
+			name="DEATH1" >
+		<lp
+			id="8"
+			effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+			restartOnAnimationChange="1"
+			ImmediateRemove="0" />
+		</action>
+
+		<action
+			skin="8" 
+			name="DEATH2">
+		<lp
+			id="8"
+			effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+			restartOnAnimationChange="1"
+			ImmediateRemove="0" />
+		</action>
+	</model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="uralCargo00"
+        file="data\models\vehicles\ural\cargo00.gam"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        trans="0">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_GLOW01"
+                effect_id="ET_PS_GLOW_QUAD"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW02"
+                effect_id="ET_PS_GLOW_QUAD"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW03"
+                effect_id="ET_PS_GLOW_QUAD"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="fly01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_fly01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="fly01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_fly01_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_STORM_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_MACHINEGUN_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="giant_hunter01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\giant_hunter01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_GUN"
+                effect_id="ET_PS_DRAGON01_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="giant_hunter01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\giant_hunter01_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="tankCab01"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\tank\cab01.gam">
+        <action
+            name="DEATH1"
+            skin="1">
+            <lp
+                id="w"
+                effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="DEATH2"
+            skin="1">
+            <lp
+                id="w"
+                effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_SMOKE1"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_SMOKE1"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_GLOW01"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_SMOKE1"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_SMOKE1"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="RESERVED2">
+            <lp
+                id="LP_LIGHT01"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT02"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_PROJECTOR"
+                effect_id="ET_PS_PROJECTOR_TANK"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="tankWheel01r"
+        shadow="1"
+        windwavy="0"
+        file="data\models\vehicles\tank\wheel01r.gam">
+        <action
+            skin="1"
+            name="DEATH1">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            skin="1"
+            name="DEATH2">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="tankWheel01l"
+        shadow="1"
+        windwavy="0"
+        file="data\models\vehicles\tank\wheel01l.gam">
+        <action
+            skin="1"
+            name="DEATH1">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            skin="1"
+            name="DEATH2">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_BIG"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <action
+        _Action="Remove"
+        _ParentXPath="model[@id='tankChassis']"
+        _SelectorKeys="name"
+        name="STAND1"/>
+
+    <action
+        _Action="Remove"
+        _ParentXPath="model[@id='tankChassis']"
+        _SelectorKeys="name"
+        name="MOVE1"/>
+
+    <action
+        _Action="Remove"
+        _ParentXPath="model[@id='tankChassis']"
+        _SelectorKeys="name"
+        name="MOVE2"/>
+
+    <action
+        _Action="Remove"
+        _ParentXPath="model[@id='tankChassis']"
+        _SelectorKeys="name"
+        name="RESERVED2"/>
+
+    <action
+        _Action="Add"
+        _ParentXPath="model[@id='tank01']"
+        _SelectorKeys="name"
+        name="DEATH1"
+        skin="1"/>
+
+    <action
+        _Action="Add"
+        _ParentXPath="model[@id='tank01']"
+        _SelectorKeys="name"
+        name="DEATH2"
+        skin="1"/>
+
+    <action
+        _Action="Add"
+        _ParentXPath="model[@id='tank01gun']"
+        _SelectorKeys="name"
+        name="DEATH1"
+        skin="1"/>
+
+    <action
+        _Action="Add"
+        _ParentXPath="model[@id='tank01gun']"
+        _SelectorKeys="name"
+        name="DEATH2"
+        skin="1"/>
+
+	<model
+        _Action="Add"
+        _SelectorKeys="id"    
+		id="needle01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\guns\sml_needle_01.gam">
+		<action
+			name="DEATH1"
+			skin="8"/>
+
+		<action
+			name="DEATH2"
+			skin="8"/>
+	</model>
+
+	<model
+        _Action="Add"
+        _SelectorKeys="id"    
+		id="needle01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\guns\sml_needle_01_gun.gam">
+		<action
+			name="DEATH1"
+			skin="8"/>
+
+		<action
+			name="DEATH2"
+			skin="8"/>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_HUNTER_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bofors01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_bofors01.gam">
+        <action
+            name="DEATH1"
+            skin="16"/>
+
+        <action
+            name="DEATH2"
+            skin="16"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bofors01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_bofors01_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_RAPIER01_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_CANNON_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="abzac01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_bumblebee01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="abzac01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_abzac_01_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_STORM_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_SHELL01"
+                effect_id="ET_PS_SHELL_SML_SHOTGUN"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_MACHINEGUN_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="pkt02"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_pkt01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="pkt02gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_pkt02_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_PKT_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_SHELL01"
+                effect_id="ET_PS_SHELL_SML_MGUN"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_MACHINEGUN_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="pktu01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_pktu01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="pktu01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_pktu01_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_PKT_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_SHELL01"
+                effect_id="ET_PS_SHELL_SML_MGUN"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_MACHINEGUN_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="browning01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_browning01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="browning01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\big_browning01_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_PKT_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_SHELL01"
+                effect_id="ET_PS_SHELL_BIG_MGUN"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_MACHINEGUN_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hornetA01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_hornet01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hornetA01gun"
+        shadow="1"
+        windwavy="0"
+        file="data\models\guns\sml_hornet01_USA_gun.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_HORNET_FIRE"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_SHELL01"
+                effect_id="ET_PS_SHELL_SML_MGUN"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_FIRE01"
+                effect_id="ET_PS_MACHINEGUN_STAND"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+		id="bulldogcargo0"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0"
+		file="data\models\vehicles\bulldog\bsk00.gam">
+		<action
+			name="DEATH1"
+			skin="8" />
+
+		<action
+			name="DEATH2"
+			skin="8" />
+	</model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogcargo1"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        trans="0"
+        file="data\models\vehicles\bulldog\bsk01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_GLOW01"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW02"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW03"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+        </action>
+
+        <action
+            name="RESERVED2">
+            <lp
+                id="LP_GLOW01"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW02"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW03"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogcargo2"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        trans="0"
+        file="data\models\vehicles\bulldog\bsk02.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_GLOW01"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW02"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_GLOW03"
+                effect_id="ET_PS_GLOW"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogshassis"
+        shadow="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\shassis.gam">
+        <action
+            name="DEATH1"
+            skin="8">
+            <lp
+                id="w"
+                effect_id="ET_PS_VEH_EXP_SHASSIS_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="DEATH2"
+            skin="8">
+            <lp
+                id="w"
+                effect_id="ET_PS_VEH_EXP_SHASSIS1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogsusp01"
+        shadow="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\susp01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogsusp03"
+        shadow="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\susp02l.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogsusp04"
+        shadow="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\susp02r.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogwheel01"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\wheel02r.gam">
+        <action
+            name="DEATH1"
+            skin="16">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="DEATH2"
+            skin="16">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogwheel02"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\wheel02l.gam">
+        <action
+            name="DEATH1"
+            skin="16">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="DEATH2"
+            skin="16">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogwheel03"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\wheel03.gam">
+        <action
+            name="DEATH1"
+            skin="16">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="DEATH2"
+            skin="16">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogwheel04"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\wheel04.gam">
+        <action
+            name="DEATH1"
+            skin="8">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="DEATH2"
+            skin="8">
+            <lp
+                id="8"
+                effect_id="ET_PS_VEH_EXP_WHEEL1_SMALL"
+                restartOnAnimationChange="1"
+                ImmediateRemove="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogcab01"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\cab01.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="RESERVED2">
+            <lp
+                id="LP_LIGHT01"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT02"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT03"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT04"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_PROJECTOR"
+                effect_id="ET_PS_PROJECTOR_SCOUT_CAB01"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogcab02"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\cab02.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="RESERVED2">
+            <lp
+                id="LP_LIGHT01"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT02"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT03"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT04"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT05"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_PROJECTOR"
+                effect_id="ET_PS_PROJECTOR_SCOUT_CAB01"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogcabRace"
+        shadow="1"
+        shadowVolume="1"
+        windwavy="0"
+        file="data\models\vehicles\bulldog\cab00.gam">
+        <action
+            name="DEATH1"
+            skin="8"/>
+
+        <action
+            name="DEATH2"
+            skin="8"/>
+
+        <action
+            name="STAND1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE1">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_TURBO"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_TURBO"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="MOVE2">
+            <lp
+                id="LP_EXH01"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+
+            <lp
+                id="LP_EXH02"
+                effect_id="ET_PS_EXHAUST_POW_SMOKE1_SMALL"
+                restartOnAnimationChange="0"
+                ImmediateRemove="0"/>
+        </action>
+
+        <action
+            name="RESERVED2">
+            <lp
+                id="LP_LIGHT01"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT02"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT03"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT04"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_LIGHT05"
+                effect_id="ET_PS_HLIGHT"
+                restartOnAnimationChange="0"/>
+
+            <lp
+                id="LP_PROJECTOR"
+                effect_id="ET_PS_PROJECTOR_SCOUT_CAB01"
+                restartOnAnimationChange="0"/>
+        </action>
+    </model>    
+</AnimatedModels>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<RadioSounds>
+    <Sound
+        _Action="Modify"
+        _ParentXPath="Group[@name='player']/Neutral"
+        _SelectorKeys="id"
+        id="first_see_other"
+        samples="1 2 3 4 175 176 177 178"
+        probability="50"/>
+
+    <Sound
+        _Action="Modify"
+        _ParentXPath="Group[@name='player']/Neutral"
+        _SelectorKeys="id"
+        id="self_broken"
+        samples="9 10 11 12 179"
+        probability="50"/>
+
+    <Sound
+        _Action="Modify"
+        _ParentXPath="Group[@name='player']/Neutral"
+        _SelectorKeys="id"
+        id="enemy_died"
+        samples="13 14 15 16 17 180 181 182"
+        probability="50"/>
+</RadioSounds>

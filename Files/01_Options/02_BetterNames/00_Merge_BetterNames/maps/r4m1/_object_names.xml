@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheGadad"
+        FullName="Гадад"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Gadad_Bar_Barman"
+        FullName="Бармен Абд"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Gadad_Bar_Customer1"
+        FullName="Дядька Айман"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheKef"
+        FullName="Кеф"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kef_Bar"
+        FullName="Бар ''Оазис''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kef_Bar_Barman"
+        FullName="Бармен Вахид"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kef_Bar_Customer1"
+        FullName="Маруф"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheKazif"
+        FullName="Казиф"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kazif_Bar_Barman"
+        FullName="Бармен Сарват"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kazif_Bar_Customer1"
+        FullName="Старик Гишам"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r4_AlihamVil"
+        FullName="Алихам"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r4_Aliham_Bar_Barman"
+        FullName="Бармен Галанис"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r4_Aliham_Bar_Visitor"
+        FullName="Латиф"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Buhara_loc"
+        FullName="Бухара"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOilCity"
+        FullName="Нефтеград"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheZuhel"
+        FullName="Зухел"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r4_Buhara_1"
+        FullName="Бухара"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r4_Buhara_1_enter"
+        FullName="Бухара"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod1"
+		FullName="Аль-Шамс" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod2"
+		FullName="Джанн" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod3"
+		FullName="Самум" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod4"
+		FullName="Иблис" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod5"
+		FullName="Хаким" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod6"
+		FullName="Ра’ад" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod7"
+		FullName="Зарка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod8"
+		FullName="Кабир" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod9"
+		FullName="Хариф" />
+</ObjectNames>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ResourceTypes>
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="TANK_BASKET"/>
+
+    <Type
+        _Action="Modify"
+        _ParentXPath="Type[@Name='GUN']"
+        _SelectorKeys="Name"
+        Name="TANK_GUN"
+        geomsize="4 4"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="BULLDOG_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="BULLDOG_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="BULLDOG_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="SKAT_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="SKAT_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="SKAT_BASKET"/>
+
+    <Type
+        _Action="Modify"
+        _ParentXPath="Type[@Name='GUN']"
+        _SelectorKeys="Name"
+        Name="TANK_GUN"
+        geomsize="4 4"/>
+</ResourceTypes>

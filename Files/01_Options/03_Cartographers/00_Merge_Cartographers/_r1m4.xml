@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Remove"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Bar']"
+        _SelectorKeys="Name"
+        Name="Kartograph1"/>
+</DynamicScene>

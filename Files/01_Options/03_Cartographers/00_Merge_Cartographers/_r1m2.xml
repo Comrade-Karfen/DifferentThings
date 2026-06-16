@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Bar']"
+        _SelectorKeys="Name"
+        Name="Kartograph1"/>
+
+    <Object
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Bar']"
+        _SelectorKeys="Name"
+        Name="Kartograph2"/>
+
+    <Object
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Bar']"
+        _SelectorKeys="Name"
+        Name="Kartograph3"/>
+</DynamicScene>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Esting"
+        FullName="Волож"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Esting_enter"
+        FullName="Волож"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSign"
+        FullName="Рудная Шахта"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSign_enter"
+        FullName="Рудная Шахта"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOilVillage"
+        FullName="Ла Белль"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOilVillage_enter"
+        FullName="Ла Белль"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTown"
+        FullName="Ринольск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTown_enter"
+        FullName="Ринольск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheContraVillage"
+        FullName="Ермаково"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheContraVillage_enter"
+        FullName="Ермаково"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown1"
+        FullName="Михайловка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown1_enter"
+        FullName="Михайловка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown2"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown2_enter"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown3"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown3_enter"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown4"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown4_enter"
+        FullName="Заправка"/>
+</ObjectNames>

@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Bandit2"
+        Belong="1024"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Bandit1"
+        Belong="1024"/>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG25"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="3259.342 279.329 6903.861"
+        Probability="0.500">
+        <Object
+            Name="barricade7_GwG25_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="3262.145 279.685 6895.677"
+            Rot="0.000 0.336 0.000 0.942">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG25_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="3254.273 279.631 6904.733"
+            Rot="0.000 0.336 0.000 0.942">
+            <Parts/>
+        </Object>
+
+        <Object
+            Flags="21"
+            Name="barricade7_GwG25_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG25_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG40"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="3294.553 263.814 6757.050"
+        Probability="0.500">
+        <Object
+            Name="barricade5_GwG40_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="3290.247 264.157 6760.959"
+            Rot="0.000 0.364 0.000 0.931">
+            <Parts/>
+        </Object>
+
+        <Object
+            Flags="21"
+            Name="barricade5_GwG40_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG40_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG40_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="3299.059 263.678 6752.814"
+            Rot="0.000 0.364 0.000 0.931">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_brickbar17"
+        Belong="1024"
+        Prototype="js_brickbar"
+        Pos="3030.925 277.147 6210.258">
+        <Object
+            Flags="21"
+            Name="js_brickbar17_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_brickbar17_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_wallwithenemy122"
+        Belong="1024"
+        Prototype="js_wallwithenemy1"
+        Pos="3033.113 277.304 6205.086">
+        <Object
+            Flags="21"
+            Name="js_wallwithenemy122_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Object
+                Name="js_wallwithenemy122_Child7"
+                Belong="1024"
+                Prototype="Ural00"
+                Pos="3041.468 278.469 6202.152"
+                Rot="0.016 0.000 -0.003 1.000">
+                <Parts/>
+
+                <Repository/>
+            </Object>
+
+            <Object
+                Name="js_wallwithenemy122_Child8"
+                Belong="1024"
+                Prototype="CruiserBased"
+                Pos="3025.042 278.685 6202.712"
+                Rot="0.018 0.000 -0.005 1.000">
+                <Parts/>
+
+                <Repository/>
+            </Object>
+
+            <Formation
+                Name="js_wallwithenemy122_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="13.889"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG56"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="2328.780 291.324 5286.028"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade5_GwG56_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG56_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG56_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="2323.694 291.386 5288.963"
+            Rot="0.000 0.263 0.000 0.965">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG56_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="2334.034 291.452 5282.874"
+            Rot="0.000 0.263 0.000 0.965">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG0"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="2472.843 269.868 4672.689"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG0_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG0_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG0_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="2468.082 270.015 4671.814">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG0_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="2480.661 269.865 4672.013">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_barricade199"
+        Belong="1024"
+        Prototype="js_barricade1"
+        Pos="2552.194 264.752 3921.411">
+        <Object
+            Flags="21"
+            Name="js_barricade199_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_barricade199_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_barricade199_Child5"
+            Belong="1024"
+            Prototype="sack_dot2_kord"
+            Pos="2550.633 265.157 3920.550"
+            Rot="0.000 -0.796 0.000 0.605">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG60"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="3382.110 248.909 4208.035"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade5_GwG60_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG60_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG60_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="3380.468 249.262 4213.480"
+            Rot="0.000 0.597 0.000 0.803">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG60_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="3383.926 249.236 4201.988"
+            Rot="0.000 0.597 0.000 0.803">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG6"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="3701.329 248.872 4182.295"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG6_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG6_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG6_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="3699.894 249.139 4176.474"
+            Rot="0.000 -0.628 0.000 0.779">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG6_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="3702.441 249.226 4188.200"
+            Rot="0.000 -0.628 0.000 0.779">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_wallwithenemy117"
+        Belong="1024"
+        Prototype="js_wallwithenemy1"
+        Pos="3953.278 248.002 4350.566">
+        <Object
+            Flags="21"
+            Name="js_wallwithenemy117_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Object
+                Name="js_wallwithenemy117_Child7"
+                Belong="1024"
+                Prototype="CoolBelaz_2"
+                Pos="3961.633 249.209 4347.632">
+                <Parts/>
+
+                <Repository/>
+            </Object>
+
+            <Object
+                Name="js_wallwithenemy117_Child8"
+                Belong="1024"
+                Prototype="Cruiser02"
+                Pos="3945.208 249.159 4348.192">
+                <Parts/>
+
+                <Repository/>
+            </Object>
+
+            <Formation
+                Name="js_wallwithenemy117_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="13.889"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade6_wGw72"
+        Belong="1024"
+        Prototype="barricade6_wGw"
+        Pos="4817.433 246.066 4942.293"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade6_wGw72_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade6_wGw72_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade6_wGw72_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="4817.491 246.302 4942.112"
+            Rot="0.000 0.581 0.000 0.814">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG78"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="5209.789 248.002 4936.844"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade5_GwG78_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG78_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG78_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="5212.237 248.132 4927.453"
+            Rot="0.000 -0.502 0.000 0.865">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG78_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="5218.191 248.142 4937.874"
+            Rot="0.000 -0.502 0.000 0.865">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_brickbar89"
+        Belong="1024"
+        Prototype="js_brickbar"
+        Pos="5566.051 232.204 4108.068">
+        <Object
+            Flags="21"
+            Name="js_brickbar89_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_brickbar89_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_brickbar89_Child1"
+            Belong="1024"
+            Prototype="brick_dot1_vulcan"
+            Pos="5578.590 232.756 4108.142"
+            Rot="0.000 -0.736 0.000 0.677">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_brickbar90"
+        Belong="1024"
+        Prototype="js_brickbar"
+        Pos="5565.053 232.207 4126.705">
+        <Object
+            Flags="21"
+            Name="js_brickbar90_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_brickbar90_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_brickbar90_Child1"
+            Belong="1024"
+            Prototype="brick_dot1_vulcan"
+            Pos="5563.201 232.595 4122.682">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_brickbar81"
+        Belong="1024"
+        Prototype="js_brickbar"
+        Pos="5581.350 232.269 4127.274">
+        <Object
+            Flags="21"
+            Name="js_brickbar81_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_brickbar81_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_brickbar81_Child1"
+            Belong="1024"
+            Prototype="brick_dot1_vulcan"
+            Pos="5577.224 232.269 4122.409">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_barricade188"
+        Belong="1024"
+        Prototype="js_barricade1"
+        Pos="6035.382 248.586 4262.346">
+        <Object
+            Name="js_barricade188_Child5"
+            Belong="1024"
+            Prototype="sack_dot2_kord"
+            Pos="6033.546 249.572 4262.608"
+            Rot="0.000 -0.952 0.000 -0.307">
+            <Parts/>
+        </Object>
+
+        <Object
+            Flags="21"
+            Name="js_barricade188_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_barricade188_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG96"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="6285.870 248.952 4051.217"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG96_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG96_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG96_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="6284.164 250.004 4045.463"
+            Rot="0.000 -0.609 0.000 0.793">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG96_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="6287.268 249.888 4057.054"
+            Rot="0.000 -0.609 0.000 0.793">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_barricade13"
+        Belong="1024"
+        Prototype="js_barricade1"
+        Pos="5705.391 248.900 4829.445">
+        <Object
+            Flags="21"
+            Name="js_barricade13_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_barricade13_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_barricade13_Child5"
+            Belong="1024"
+            Prototype="sack_dot2_kord"
+            Pos="5704.518 249.926 4834.716"
+            Rot="0.000 -1.000 0.000 0.011">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG7"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="5455.368 248.761 5279.659"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG7_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG7_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG7_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="5449.582 249.799 5278.005"
+            Rot="0.000 -0.141 0.000 0.990">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG7_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="5461.101 249.844 5281.363"
+            Rot="0.000 -0.141 0.000 0.990">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_barricade176"
+        Belong="1024"
+        Prototype="js_barricade1"
+        Pos="5460.443 248.972 5699.627">
+        <Object
+            Flags="21"
+            Name="js_barricade176_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_barricade176_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_barricade176_Child5"
+            Belong="1024"
+            Prototype="sack_dot2_kord"
+            Pos="5462.543 249.973 5696.603"
+            Rot="0.000 -1.000 0.000 0.011">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG72"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="5471.966 248.609 6156.164"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade5_GwG72_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG72_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG72_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="5468.161 249.794 6155.684"
+            Rot="0.000 -0.078 0.000 0.997">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG72_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="5480.014 249.706 6157.562"
+            Rot="0.000 -0.078 0.000 0.997">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade4_wGw86"
+        Belong="1024"
+        Prototype="barricade4_wGw"
+        Pos="5238.043 248.969 6373.472"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade4_wGw86_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade4_wGw86_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade4_wGw86_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="5246.900 249.905 6377.613"
+            Rot="0.000 -0.487 0.000 0.874">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade4_wGw23"
+        Belong="1024"
+        Prototype="barricade4_wGw"
+        Pos="5229.018 249.000 6375.425"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade4_wGw23_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade4_wGw23_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade4_wGw23_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="5237.940 249.975 6370.584"
+            Rot="0.000 -0.496 0.000 0.868">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade6_wGw85"
+        Belong="1024"
+        Prototype="barricade6_wGw"
+        Pos="5023.067 248.936 6496.683"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade6_wGw85_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade6_wGw85_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade6_wGw85_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="5014.701 249.930 6499.412"
+            Rot="0.000 -0.634 0.000 0.773">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG91"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="4557.441 249.094 6524.034"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG91_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG91_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG91_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="4558.958 250.158 6517.819"
+            Rot="0.000 -0.699 0.000 0.715">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG91_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="4559.219 250.048 6529.815"
+            Rot="0.000 -0.699 0.000 0.715">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG13"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="4223.384 265.755 6634.677"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade5_GwG13_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG13_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG45"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="4227.543 265.053 6628.879"
+        Probability="0.500">
+        <Object
+            Name="barricade7_GwG45_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="4232.711 265.823 6631.875"
+            Rot="0.000 -0.255 0.000 0.967">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG45_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="4222.268 266.272 6625.966"
+            Rot="0.000 -0.255 0.000 0.967">
+            <Parts/>
+        </Object>
+
+        <Object
+            Flags="21"
+            Name="barricade7_GwG45_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG45_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade6_wGw45"
+        Belong="1024"
+        Prototype="barricade6_wGw"
+        Pos="3627.656 257.244 7032.847"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade6_wGw45_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade6_wGw45_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade6_wGw45_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="3627.409 257.771 7032.789"
+            Rot="0.000 -0.770 0.000 0.638">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG33"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="2589.135 291.415 5628.655"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG33_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG33_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG33_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="2584.826 291.598 5632.710"
+            Rot="0.000 0.373 0.000 0.928">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG33_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="2593.494 291.497 5624.410"
+            Rot="0.000 0.373 0.000 0.928">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade4_wGw38"
+        Belong="1024"
+        Prototype="barricade4_wGw"
+        Pos="2495.287 269.930 4146.790"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade4_wGw38_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade4_wGw38_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade4_wGw38_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="2495.287 270.119 4146.790">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade6_wGw64"
+        Belong="1024"
+        Prototype="barricade6_wGw"
+        Pos="2131.528 259.828 3863.993"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade6_wGw64_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade6_wGw64_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade6_wGw64_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="2136.640 260.919 3863.734"
+            Rot="0.000 -0.748 0.000 0.664">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade4_wGw72"
+        Belong="1024"
+        Prototype="barricade4_wGw"
+        Pos="1856.908 215.852 3254.737"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade4_wGw72_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade4_wGw72_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade4_wGw72_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="1858.185 216.217 3256.827"
+            Rot="0.000 0.236 0.000 0.972">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade6_wGw8"
+        Belong="1024"
+        Prototype="barricade6_wGw"
+        Pos="2046.566 222.540 3495.242"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade6_wGw8_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade6_wGw8_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade6_wGw8_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="2049.462 222.978 3495.686">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="js_barricade114"
+        Belong="1024"
+        Prototype="js_barricade1"
+        Pos="3035.806 248.916 4163.087">
+        <Object
+            Flags="21"
+            Name="js_barricade114_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="js_barricade114_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="js_barricade114_Child5"
+            Belong="1024"
+            Prototype="sack_dot2_kord"
+            Pos="3036.009 249.304 4165.197"
+            Rot="0.000 -0.859 0.000 0.511">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade6_wGw20"
+        Belong="1024"
+        Prototype="barricade6_wGw"
+        Pos="4145.676 248.002 4586.245"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade6_wGw20_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade6_wGw20_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade6_wGw20_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="4145.433 248.191 4583.857"
+            Rot="0.000 0.489 0.000 0.872">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade5_GwG94"
+        Belong="1024"
+        Prototype="barricade5_GwG"
+        Pos="4484.569 240.802 4760.598"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade5_GwG94_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade5_GwG94_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG94_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="4478.713 240.990 4768.504"
+            Rot="0.000 0.502 0.000 0.865">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade5_GwG94_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun07"
+            Pos="4484.670 240.844 4758.086"
+            Rot="0.000 0.502 0.000 0.865">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade7_GwG46"
+        Belong="1024"
+        Prototype="barricade7_GwG"
+        Pos="4600.117 248.926 5923.610"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade7_GwG46_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Formation
+                Name="barricade7_GwG46_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="100.000"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG46_Child2"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="4601.226 249.052 5918.360"
+            Rot="0.000 -0.755 0.000 0.656">
+            <Parts/>
+        </Object>
+
+        <Object
+            Name="barricade7_GwG46_Child3"
+            Belong="1024"
+            Prototype="staticAutoGun08"
+            Pos="4599.557 249.109 5930.242"
+            Rot="0.000 -0.755 0.000 0.656">
+            <Parts/>
+        </Object>
+    </Object>
+
+    <Object
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="barricade8_wwwC60"
+        Belong="1024"
+        Prototype="barricade8_wwwC"
+        Pos="5046.588 249.255 5839.810"
+        Probability="0.500">
+        <Object
+            Flags="21"
+            Name="barricade8_wwwC60_Team"
+            Belong="1024"
+            Prototype="settlementTeam">
+            <Object
+                Name="barricade8_wwwC60_Child4"
+                Belong="1024"
+                Prototype="AKF_Cruiser2"
+                Pos="5046.757 249.943 5848.064"
+                Rot="0.004 -0.737 0.002 0.676">
+                <Parts/>
+
+                <Repository/>
+            </Object>
+
+            <Formation
+                Name="barricade8_wwwC60_Team_Formation"
+                Belong="1024"
+                Prototype="caravanFormation"
+                DistBetweenVehicles="30.000"
+                Pos="0.000 0.000 0.000"
+                Direction="0.000 0.000 1.000"
+                LinearVelocity="13.889"
+                AngularVelocity="0.500"
+                NumPathPoint="-1"/>
+        </Object>
+    </Object>
+</DynamicScene>

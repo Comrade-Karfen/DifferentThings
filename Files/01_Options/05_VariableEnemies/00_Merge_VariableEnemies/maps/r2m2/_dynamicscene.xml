@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="InfectionZone27"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="InfectionZone23"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="InfectionZone25"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="InfectionZone6"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="InfectionZone58"
+        Belong="1006"/>
+</DynamicScene>

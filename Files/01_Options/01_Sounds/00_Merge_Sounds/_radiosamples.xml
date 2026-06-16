@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<RadioSamples>
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="175"
+        sound="data\sounds\radio\r_player_attack_5.ogg"
+        text="Враг будет повержен."/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="176"
+        sound="data\sounds\radio\r_player_attack_6.ogg"
+        text="Это ещё что такое?"/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="177"
+        sound="data\sounds\radio\r_player_attack_7.ogg"
+        text="Похоже, придётся действовать по плохому."/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="178"
+        sound="data\sounds\radio\r_player_attack_8.ogg"
+        text="Как я ненавижу это бандитское отродье."/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="179"
+        sound="data\sounds\radio\r_player_shot_5.ogg"
+        text="Еле уцелел..."/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="180"
+        sound="data\sounds\radio\r_player_ishit_2.ogg"
+        text="Так тебе!"/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="181"
+        sound="data\sounds\radio\r_player_kill_7.ogg"
+        text="Я победил."/>
+
+    <Sample
+        _Action="Add"
+        _SelectorKeys="id"
+        id="182"
+        sound="data\sounds\radio\r_player_kill_6.ogg"
+        text="Враг повержен."/>
+</RadioSamples>

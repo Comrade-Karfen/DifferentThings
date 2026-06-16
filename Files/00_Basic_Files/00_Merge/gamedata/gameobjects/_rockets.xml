@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="hunterrocket01"
+        Price="450"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="rocketLauncher"
+        ShellsPoolSize="10"
+        WithShellsPoolLimit="true"
+        CanBeUsedInAutogenerating="1"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="hunterLauncher"
+        ModelFile="giant_hunter01"
+        ShellsPoolSize="10"
+        WithShellsPoolLimit="true"
+        VisibleInEncyclopedia = "true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="hunterLauncher_unlimit"
+        ModelFile="giant_hunter01"/>
+</Prototypes>

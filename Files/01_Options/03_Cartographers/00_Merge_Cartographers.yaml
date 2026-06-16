@@ -1,0 +1,13 @@
+#maps
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_triggers.xml
+  targets:
+    - maps\r1m1\triggers.xml
+    - maps\r1m2\triggers.xml
+    - maps\r1m3\triggers.xml
+    - maps\r1m4\triggers.xml
+    - maps\r2m1\triggers.xml
+    - maps\r2m2\triggers.xml
+    - maps\r3m1\triggers.xml
+    - maps\r3m2\triggers.xml
+    - maps\r4m1\triggers.xml
+    - maps\r4m2\triggers.xml

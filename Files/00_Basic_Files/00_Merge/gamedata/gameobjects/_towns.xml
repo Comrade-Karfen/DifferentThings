@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunTownSouthGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="pktu01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunMirgradGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="abzac01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunMirgradGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="needle01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunMirgradGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="bofors01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunMirgradGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="browning01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="hornetA01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="abzac01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="pktu01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="needle01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="bofors01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="browning01"/>
+
+    <Object
+        _Action="Remove"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunOlmeGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="hornet01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunPeshtGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="needle01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='guncityGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="pktu01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunAsgargGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="browning01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunAsgargGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="fly01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunEstingGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="fly01"/>
+
+    <Object
+        _Action="Add"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunEstingGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="pktu01"/>
+
+    <Object
+        _Action="Remove"
+        _ParentXPath="Folder[@Name='BigTowns']/Prototype[@Name='gunEstingGenerator']"
+        _SelectorKeys="PrototypeName"
+        PrototypeName="pkt01"/>
+</Prototypes>

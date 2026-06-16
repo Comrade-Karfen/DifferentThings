@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DialogsResource>
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_npc_001415"
+		text="Wait, wait, no need to overreact. Someone tried to contact me on the radio this morning. The voice really sounded like my comrade from Sowth. And now you show up and ask for a gun. Okay, I'll believe you. Imp or Pecheneg?"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_npc_001417"
+		text="Never heard of these? Surely, you don't see such weapons in these lands. Let me explain. The Imp is a cannon. It's a powerful weapon, but you have to shoot at close range. Pecheneg is a machine gun. Better than yours, but you can't expect it to kill your enemy by one shot. You got to aim it from a distance. So, what are you taking?"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_pl_001427"
+        text="Imp."
+        scriptResult="AddPlayerItemsWithBox( 'fly01', 1, 0, CVector(3229,319,1254))"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_pl_001418"
+        text="Pecheneg."
+        scriptResult="AddPlayerItemsWithBox( 'pkt02', 1, 0, CVector(3229,319,1254))"/>
+</DialogsResource>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Esting"
+        FullName="Восточный"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Midragd"
+        FullName="Мидгард"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Porto"
+        FullName="Порто"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheArtefact"
+        FullName="Локус"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSign"
+        FullName="Яр"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheRace"
+        FullName="Малая Земля"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOlimp"
+        FullName="Римское"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTickets"
+        FullName="Олимпийская"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Esting_enter"
+        FullName="Восточный"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Midragd_enter"
+        FullName="Мидгард"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Porto_enter"
+        FullName="Порто"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheArtefact_enter"
+        FullName="Локус"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSign_enter"
+        FullName="Яр"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheRace_enter"
+        FullName="Малая Земля"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOlimp_enter"
+        FullName="Римское"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTickets_enter"
+        FullName="Олимпийская"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u1"
+		FullName="Цезарь" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u2"
+		FullName="Ферраго" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u3"
+		FullName="Шварц" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u4"
+		FullName="Миф" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u5"
+		FullName="Горбун" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u6"
+		FullName="Ривер" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u7"
+		FullName="Карлеоне" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u8"
+		FullName="Капо" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u9"
+		FullName="Маэстро" />
+</ObjectNames>

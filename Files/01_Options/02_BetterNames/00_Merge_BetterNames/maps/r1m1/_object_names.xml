@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTown"
+        FullName="Южный"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheGloohoe"
+        FullName="Глухое"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="TheGloohoe_Shop"
+		FullName="Рынок" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOilVillage"
+        FullName="Заимка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="TheOilVillage_Bar_Barman"
+		FullName="Продавщица Дарья" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheContraVillage"
+        FullName="Гугулино"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="TheContraVillage_Bar_Barman"
+		FullName="Барменша Ульяна" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheFreedom"
+        FullName="Троицкое"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="TheFreedom_Bar_Barman"
+		FullName="Барменша Рита" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="CS"
+		FullName="Ополченец Петро" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="Botanik"
+		FullName="Ботаник Люк" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheContraVillage_defend"
+        FullName="Гугулино"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTown_enter"
+        FullName="Южный"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheFreedom_enter"
+        FullName="Троицкое"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOilVillage_enter"
+        FullName="Заимка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u1"
+		FullName="Яшка Тормоз" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u2"
+		FullName="Илья Погост" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u3"
+		FullName="Федот Гнилой" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u4"
+		FullName="Миха Сыч" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u5"
+		FullName="Батька Коршун" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u6"
+		FullName="Серёга Чёрт" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u7"
+		FullName="Жека Гвоздь" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u8"
+		FullName="Гришка Лысый" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u9"
+		FullName="Гаврила Жук" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Sosnovka"
+        FullName="Сосновка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Sosnovka_enter"
+        FullName="Сосновка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Lukoil"
+        FullName="Чеснокойл"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Lukoil_enter"
+        FullName="Чеснокойл"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Svalka"
+        FullName="Ржавенск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Svalka_Bar_Barman"
+        FullName="Бармен Михалыч"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Svalka_enter"
+        FullName="Ржавенск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Ruin"
+        FullName="Старый посёлок"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Ruin_enter"
+        FullName="Старый посёлок"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kolhoz"
+        FullName="Серп и Молот"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Kolhoz_enter"
+        FullName="Серп и Молот"/>
+</ObjectNames>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "fly01"
+		ModelFile				= "fly01"
+		ResourceType			= "SMALL_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "raybullet"
+		ExplosionType			= "CANNON"
+		FiringEffect			= "none"
+		Damage					= "130"
+		FiringRate				= "24"
+		GroupingAngle			= "0.6"
+		FiringRange				= "1000"
+		RecoilForce				= "50"
+		DamageType				= "BLAST"
+		Decal					= "DC_GUN"
+
+		ChargeSize     			= "1"
+		RechargingTime 			= "2.0"
+
+		Durability				= "15"
+
+		ShellsPoolSize          = "59"
+		WithShellsPoolLimit     = "false"
+		
+		BlastWavePrototype      = "smallBlastWave"
+		Price					= "2700"
+		FiringType				= "Cannon"/>
+		
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "browning01"
+		ModelFile			= "browning01"
+		ResourceType		= "BIG_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage				= "15"
+		FiringRate			= "700"
+		GroupingAngle		= "1.0"
+		FiringRange			= "1000"
+		RecoilForce			= "300"
+		
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     		= "250"
+		RechargingTime 		= "6"
+
+		Price				= "18000"
+        FiringType			= "MachineGun"
+		Durability			= "80" />
+		
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "bofors01"
+		ModelFile			= "bofors01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "CANNON"
+		FiringEffect		= "none"
+		Damage				= "400"
+		FiringRate			= "120"
+		GroupingAngle		= "1.0"
+		FiringRange			= "6500"
+		RecoilForce			= "900"
+        FiringType			= "Cannon"
+		BlastWavePrototype	= "boforsBlastWave"
+		
+        DamageType			= "BLAST"
+		Velocity			= "850"
+		Price				= "180000"
+		ChargeSize     		= "4"
+		RechargingTime 		= "5"
+
+		Durability			= "150" />
+
+    <Prototype
+        Class                   = "BlastWave"
+        Name                    = "boforsBlastWave"
+                
+        Radius                  = "50.0"
+        Effect                  = "ET_PS_AIRWAVE"
+
+        WaveForceIntensity      = "50.0"
+        WaveDamageIntensity     = "100.0"/>
+
+  <Prototype 
+		Class				= "RocketLauncher" 
+		Name				= "needle01" 
+		ModelFile			= "needle01" 
+		ResourceType		= "SMALL_GUN" 
+		NodeScale			= "1 1 1" 
+		Mass				= "15.0" 
+		
+		BulletPrototype		= "rocket_needle" 
+		ExplosionType		= "BLAST" 
+		Damage				= "160" 
+		FiringRate			= "40" 
+		GroupingAngle		= "1" 
+		FiringRange			= "700" 
+		RecoilForce			= "150" 
+		FiringType			= "Rocket" 
+		Price 				= "9500" 
+		
+		ShellsPoolSize		= "14" 
+		WithShellsPoolLimit	= "true" 
+		
+		Decal				= "DC_ROKET" 
+		
+		ChargeSize			= "1" 
+		RechargingTime		= "3" 
+		
+		Durability			= "400" 
+	/>
+
+    <Prototype
+        Class                   = "BlastWave"
+        Name                    = "needleBlastWave"
+                
+        Radius                  = "50.0"
+        Effect                  = "ET_PS_AIRWAVE1"
+        WaveForceIntensity      = "20.0"
+        WaveDamageIntensity		= "100.0"
+    />
+
+    <Prototype
+        Class                   = "Rocket"
+        Name                    = "rocket_needle"
+        ModelFile               = "rocket_sml01"
+        ExplosionType           = "BLAST" 
+
+		Price					= "30"
+
+        Velocity                = "200"
+        Acceleration            = "100"
+        FlyTime                 = "5.0"
+        MinTurningRadius        = "20"
+        Size                    = "0.5 0.5 2"
+        Mass                    = "0.1"
+        BlastWavePrototype      = "needleBlastWave"
+    />		
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "pkt02"
+		ModelFile			= "pkt02"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "10"
+		FiringRate			= "650"
+		GroupingAngle		= "0.6"
+		FiringRange			= "1000"
+		RecoilForce			= "2"
+		FiringType			= "MachineGun"
+		Price				= "4100"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "60"
+		RechargingTime 		= "2.5"
+
+		Durability			= "35"/>
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "pktu01"
+		ModelFile			= "pktu01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "5"
+		FiringRate			= "670"
+		GroupingAngle		= "0.6"
+		FiringRange			= "800"
+		RecoilForce			= "1"
+		FiringType			= "MachineGun"
+		Price				= "950"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "60"
+		RechargingTime 		= "2.5"
+
+		Durability			= "20"/>
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "hornetA01"
+		ModelFile			= "hornetA01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		TracerEffect 		="ET_PS_TRACER1"
+		TracerRange 		= "1" 
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "6"
+		FiringRate			= "395"
+		GroupingAngle		= "0.8"
+		FiringRange			= "450"
+		RecoilForce			= "3"
+        FiringType			= "MachineGun"
+		Price				= "290"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "80"
+		RechargingTime 		= "2"
+
+		Durability			= "15" />
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "abzac01"
+		ModelFile			= "abzac01"
+		ResourceType		= "BIG_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "200"
+		FiringRate			= "180"
+		GroupingAngle		= "4"
+		NumBulletsInShot	= "10"
+		FiringRange			= "270"
+		RecoilForce			= "10"
+        FiringType			= "ShotGun"
+		BlastWavePrototype  = "smallBlastWave_rainmetal"
+						
+		Price				= "24000"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "8"
+		RechargingTime 		= "12"
+
+		Durability			= "20"/>			
+
+	<Prototype
+		Class				= "PlasmaBunchLauncher"
+		Name				= "ares01"
+		ModelFile			= "ares01"
+		ResourceType		= "BIG_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+
+		BulletPrototype		= "somePlasmaBunch"
+		ExplosionType		= "PLASMA"
+		FiringEffect		= "none"
+		Damage				= "500"
+		FiringRate			= "100"
+		GroupingAngle		= "1"
+		FiringRange			= "1000"
+		RecoilForce			= "1"
+		
+		ChargeSize     		= "3"
+		RechargingTime 		= "15"
+		
+		ShellsPoolSize		= "40"
+		WithShellsPoolLimit	= "false"
+
+		Decal				= "DC_LASER"
+        FiringType			= "Plasma"
+		Price				= "85000"
+
+		Durability			= "250"/>
+</Prototypes>

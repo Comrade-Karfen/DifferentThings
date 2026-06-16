@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <!--===МИНИН===-->
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <!--===АСГАРД===-->
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Asgard']/Object[@Name='Asgard_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

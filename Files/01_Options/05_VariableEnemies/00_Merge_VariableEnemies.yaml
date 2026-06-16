@@ -1,0 +1,29 @@
+#gamedata
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\gamedata\_globalproperties.xml
+  targets:  gamedata\globalproperties.xml
+
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\gamedata\_relationship.xml
+  targets:  gamedata\relationship.xml
+
+#if
+  #strings
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\if\strings\_clansdiz.xml
+  targets:  if\strings\clansdiz.xml
+
+#maps
+  #r2m1
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\maps\r2m1\_dynamicscene.xml
+  targets:  maps\r2m1\dynamicscene.xml
+
+  #r2m2
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\maps\r2m2\_dynamicscene.xml
+  targets:  maps\r2m2\dynamicscene.xml
+
+  #r4m1
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\maps\r4m1\_dynamicscene.xml
+  targets:  maps\r4m1\dynamicscene.xml
+
+#sounds
+  #radio
+- commands: Files\01_Options\05_VariableEnemies\00_Merge_VariableEnemies\sounds\radio\_radiosounds.xml
+  targets:  sounds\radio\radiosounds.xml

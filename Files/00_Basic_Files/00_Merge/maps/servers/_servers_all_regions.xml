@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Servers>
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id" 
+		id="skatCab01" 
+		file="data\models\AnimModels.xml"
+		params = "skins: 0 1 2 3 4 5 6 7 8;" />
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id" 
+		id="skatCargo01" 
+		file="data\models\AnimModels.xml"
+		params = "skins: 0 1 2 3 4 5 6 7 8;" />
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+		id="skatChassis"
+		file="data\models\AnimModels.xml" />
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+		id="skatWheel01"
+		file="data\models\AnimModels.xml" />
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+		id="skatWheel02"
+		file="data\models\AnimModels.xml" />
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+		id="skatSusp01"
+		file="data\models\AnimModels.xml" />
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="tankCab01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="tankWheel01l"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="tankWheel01r"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ares01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ares01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="fly01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="fly01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="needle01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="needle01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="abzac01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="abzac01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="hornetA01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="hornetA01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="pktu01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="pktu01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="browning01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="browning01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="pkt02"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="pkt02gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="bofors01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="bofors01gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="giant_hunter01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="giant_hunter01gun"
+        file="data\models\AnimModels.xml"/>        
+</Servers>

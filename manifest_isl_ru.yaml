@@ -1,0 +1,122 @@
+# unique service name
+name: DifferentThingsComRem_ISL
+language: ru
+installment: exmachina
+
+# required human readable info
+display_name: Different Things [Improved Storyline]
+description: |
+  Different Things - модификация, добавляющая в продажу автомобили «Крейсер» и «Бульдог», а также расширяющая арсенал игрока новыми видами оружия и гаджетов. Помимо этого, мод вносит некоторые правки в баланс и геймплей, а также увеличивает разнообразие противников.
+authors: MrKarfen
+
+# optional human readable info
+logo: Assets/Logo.png
+install_banner: Assets/Banner.png
+release_date: 01.04.2023
+link: https://vk.com/mods_by_mrkarfen
+tags: [vehicles, weapons, gameplay, audio]
+change_log: Assets/Info/ChangeLog_Ru.md
+other_info: Assets/Info/OtherInfo_Ru.md
+screenshots:
+    - img: Assets/Screenshots/01.png
+      text: «Бульдог», первая кабина, первый кузов. Вид спереди, скин 0.
+    - img: Assets/Screenshots/02.png
+      text: «Бульдог», первая кабина, первый кузов. Вид сзади, скин 1.    
+    - img: Assets/Screenshots/03.png
+      text: «Бульдог», вторая кабина, второй кузов. Вид спереди, скин 2.    
+    - img: Assets/Screenshots/04.png
+      text: «Бульдог», вторая кабина, третий кузов. Вид сзади, скин 4.    
+    - img: Assets/Screenshots/05.png
+      text: «Крейсер» без оружия, третья кабина, третий кузов. 
+    - img: Assets/Screenshots/06.png
+      text: «Крейсер» с оружием, третья кабина, третий кузов. 
+    - img: Assets/Screenshots/07.png
+      text: «Вэн» с ракетной установкой «Игла». 
+    - img: Assets/Screenshots/08.png
+      text: «Вэн» с пушкой «Муха». 
+    - img: Assets/Screenshots/09.png
+      text: «Скат» без оружия (только для противников, не доступен для игрока). 
+    - img: Assets/Screenshots/10.png
+      text: «Скат» с оружием (только для противников, не доступен для игрока). 
+    - img: Assets/Screenshots/11.png
+      text: «Урал» с новым варианто кузова (только для противников, не доступен для игрока). 
+    
+translations: [eng]
+# installation confguration
+
+patcher_version_requirement: "3.0.6"
+no_base_content: false
+
+compatible_patch_versions: true
+strict_requirements: false
+
+data_dirs:
+  - "Files/00_Basic_Files/00_Data"
+  - "Files/00_Basic_Files/02_Data_Cruiser"
+  - "Files/00_Basic_Files/01_Data_ISL"
+merge_instructions:
+  - "Files/00_Basic_Files/02_Merge_Cruiser.yaml"
+  - "Files/00_Basic_Files/01_Merge_ISL.yaml"
+
+options_base_dir: "Files/01_Options"
+ 
+prerequisites:
+  - name: [improved_storyline_hd]
+    versions:
+     - ">=1.2.1"
+
+incompatible:
+  - name: improved_storyline_hd
+    versions: []
+    optional_content:
+    - english_localization
+  - name: [AbsqueNota]
+    versions: []
+  - name: ATM
+    versions: []
+
+optional_content:
+  - name: 01_Sounds
+    data_dirs:
+    - 01_Sounds/00_Data_Sounds
+    merge_instructions:
+    - "Files/01_Options/01_Sounds/00_Merge_Sounds.yaml"
+    display_name: Новые реплики в бою
+    description: |
+      Добавляет новые реплики главного героя в бою.
+
+  - name: 02_BetterNames
+    data_dirs:
+    - 02_BetterNames/00_Data_BetterNames
+    merge_instructions:
+    - "Files/01_Options/02_BetterNames/01_Merge_BetterNames_ISL.yaml"
+    display_name: Аутентичные наименования 
+    description: |
+      Заменяет некоторые имена и названия (в основном касается барменов и динамических бандитов) на более подходящие тому или иному региону. Добавляет имена барменам, у которых их не было.
+
+  - name: 03_Cartographers
+    data_dirs:
+    - 03_Cartographers/00_Data_Cartographers
+    merge_instructions:
+    - "Files/01_Options/03_Cartographers/01_Merge_Cartographers_ISL.yaml"
+    display_name: Бармены продают карты местности
+    description: |
+      Добавляет возможность купить у барменов карты местности. Картографы, добавленные в ISL удалены.
+
+  - name: 04_RaceBulldog
+    data_dirs:
+    - 04_RaceBulldog/00_Data_RaceBulldog
+    merge_instructions:
+    - "Files/01_Options/04_RaceBulldog/01_Merge_RaceBulldog_ISL.yaml"
+    display_name: Гоночный Бульдог
+    description: |
+      Заменяет автомобиль в гонках в Вахате на Бульдог.
+
+  - name: 05_VariableEnemies
+    data_dirs:
+    - 05_VariableEnemies/00_Data_VariableEnemies
+    merge_instructions:
+    - "Files/01_Options/05_VariableEnemies/01_Merge_VariableEnemies_ISL.yaml"
+    display_name: Вариативные противники
+    description: |
+      Заменяет некоторых бандитов во втором регионе (Либриум и Аржан) на наёмников, а в Вахате - на группировку «Куртадам».

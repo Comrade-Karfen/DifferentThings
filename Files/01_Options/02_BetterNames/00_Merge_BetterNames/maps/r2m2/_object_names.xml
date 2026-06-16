@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Monastery"
+        FullName="Монастырь"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Marezzia"
+        FullName="Марецция"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Zeon"
+        FullName="Зеон"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Toskana"
+        FullName="Тоскана"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="GranicaVillage"
+        FullName="Пограничье"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="GranicaVillage_Bar_Barman"
+        FullName="Барменша Мартина"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ZnakiVillage"
+        FullName="Сараево"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ZnakiVillage_Bar"
+        FullName="Закусочная ''Домик в деревне''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ZnakiVillage_Bar_Barman"
+        FullName="Староста Матео"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="NewVillage"
+        FullName="Астрия"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="NewVillage_Bar_Barman"
+        FullName="Староста Виктор"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"    
+        Name="PetrolStationTown1"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"    
+        Name="PetrolStationTown2"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"    
+        Name="PetrolStationTown3"
+        FullName="Заправка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Toskana_enter"
+        FullName="Тоскана"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ZnakiVillage_enter"
+        FullName="Сараево"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="NewVillage_enter"
+        FullName="Астрия"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u1"
+		FullName="Эль Торо" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u2"
+		FullName="Эспада" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u3"
+		FullName="Чистильщик" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u4"
+		FullName="Кабальеро" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u5"
+		FullName="Жак" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u6"
+		FullName="Эль Куэрво" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u7"
+		FullName="Инквизитор" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u8"
+		FullName="Фалькон" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u9"
+		FullName="Святой Жан" />
+</ObjectNames>

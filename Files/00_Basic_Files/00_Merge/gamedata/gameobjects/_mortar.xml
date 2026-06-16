@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="someMortarShell"
+        Velocity="700"
+        Acceleration="1000"
+        Price="200"
+        BlastWavePrototype="smallBlastWave"
+        TimeForActivation="14"
+        Size="0.2 0.2 0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="someMortarShell02"
+        Velocity="700"
+        Acceleration="1000"
+        ModelFile="shell01"
+        Price="150"
+        TimeForActivation="14"
+        Size="0.2 0.2 0.2"/>
+</Prototypes>

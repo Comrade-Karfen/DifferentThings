@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="trLeFrancePlaceSecret"
+        active="1">
+        <event timeout="0.1" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            local gunlist = {"pktu01","pkt01","kord01","storm01","vector01","vulcan01","rainmetal01","flag01","maxim01","pkt02","fagot01","octopus01","odin01","mrakSideGun"}
+            local len = getn(gunlist)
+
+            for i=1,19 do
+                --println("step"..i.."succesful")
+                CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(0, 2))
+            end
+            trigger:Deactivate()
+        </script>
+    </trigger>
+</triggers>

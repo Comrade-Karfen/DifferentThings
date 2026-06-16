@@ -1,0 +1,7 @@
+#maps
+- commands: Files\01_Options\04_RaceBulldog\00_Merge_RaceBulldog\_triggers.xml
+  targets:
+    - maps\r4m1\triggers.xml
+- commands: Files\01_Options\04_RaceBulldog\00_Merge_RaceBulldog\_external_paths.xml
+  targets:
+    - maps\r4m1\external_paths.xml

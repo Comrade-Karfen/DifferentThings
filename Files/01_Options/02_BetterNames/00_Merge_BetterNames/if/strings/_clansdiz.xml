@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource>
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1004_abb"
+		value="Исследователь" />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1008_abb"
+		value="Фермер" />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1017_abb"
+		value="Церковник" />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1051_abb"
+		value="Фермер" />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1064_abb"
+		value="Беженец" />
+	
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1006"
+		value="Наёмники" />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+		id="Belong_1006_abb"
+		value="Наёмник" />
+</resource>

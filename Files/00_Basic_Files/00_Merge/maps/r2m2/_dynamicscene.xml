@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Marezzia']/Object[@Name='Marezzia_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Toskana']/Object[@Name='Toskana_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Marezzia']/Object[@Name='Marezzia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Marezzia']/Object[@Name='Marezzia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Toskana']/Object[@Name='Toskana_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Toskana']/Object[@Name='Toskana_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Zeon']/Object[@Name='Zeon_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Zeon']/Object[@Name='Zeon_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+</DynamicScene>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <!--===МИДГАРД===-->
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <!--===ПОРТО===-->
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

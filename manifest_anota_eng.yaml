@@ -1,0 +1,107 @@
+# unique service name
+name: DifferentThingsComRem_anota
+language: eng
+installment: exmachina
+
+# required human readable info
+display_name: Different Things [Absque nota]
+description: |
+  Different Things - a mod that adds the «Bulldog» vehicle to the game's shops, as well as expands the player's arsenal with new types of weapons and gadgets. Additionally, the mod makes some balance and gameplay tweaks, and increases enemy variety.
+authors: MrKarfen
+
+# optional human readable info
+logo: Assets/Logo.png
+install_banner: Assets/Banner.png
+release_date: 01.04.2023
+link: https://vk.com/mods_by_mrkarfen
+tags: [vehicles, weapons, gameplay, audio]
+change_log: Assets/Info/ChangeLog_Eng.md
+other_info: Assets/Info/OtherInfo_Eng.md
+screenshots:
+    - img: Assets/Screenshots/01.png
+      text: «Bulldog», first cabin, first cargo. Front view, skin 0.
+    - img: Assets/Screenshots/02.png
+      text: «Bulldog», first cabin, first cargo. Rear view, skin 1.    
+    - img: Assets/Screenshots/03.png
+      text: «Bulldog», second cabin, second cargo. Front view, skin 2.    
+    - img: Assets/Screenshots/04.png
+      text: «Bulldog», second cabin, third cargo. Rear view, skin 4   
+    - img: Assets/Screenshots/07.png
+      text: «Van» with the «Gimlet» rocket launcher
+    - img: Assets/Screenshots/08.png
+      text: «Van» with the «Imp» cannon. 
+    - img: Assets/Screenshots/09.png
+      text: «Stingray» without weapons (enemy-only, not available to the player).
+    - img: Assets/Screenshots/10.png
+      text: «Stingray» with weapons (enemy-only, not available to the player).
+    - img: Assets/Screenshots/11.png
+      text: «Ural» with the new cargo variant (enemy-only, not available to the player). 
+    
+#translations: [eng]
+# installation confguration
+
+patcher_version_requirement: "3.0.6"
+no_base_content: false
+
+compatible_patch_versions: true
+strict_requirements: false
+
+data_dirs:
+  - "Files/00_Basic_Files/00_Data"
+merge_instructions:
+  - "Files/00_Basic_Files/00_Merge.yaml"
+
+options_base_dir: "Files/01_Options"
+ 
+prerequisites:
+  - name: [community_remaster]
+    versions:
+     - ">=1.14.1"
+    optional_content:
+      - hd_vehicle_models
+      - english_localization
+  - name: [AbsqueNota]
+    versions: []
+
+incompatible:
+  - name: improved_storyline_hd
+    versions: []
+  - name: ATM
+    versions: []
+
+optional_content:
+  - name: 03_Cartographers
+    data_dirs:
+    - 03_Cartographers/01_Data_Cartographers_eng
+    merge_instructions:
+    - "Files/01_Options/03_Cartographers/00_Merge_Cartographers.yaml"
+    display_name: Barmen sell area maps
+    description: |
+      Added the ability to buy area maps from barmens.
+
+  - name: 04_RaceBulldog
+    data_dirs:
+    - 04_RaceBulldog/00_Data_RaceBulldog
+    merge_instructions:
+    - "Files/01_Options/04_RaceBulldog/00_Merge_RaceBulldog.yaml"
+    display_name: Racing Bulldog
+    description: |
+      The vehicle in Vahat races is replaced with the Bulldog.
+
+  - name: 05_VariableEnemies
+    data_dirs:
+    - 05_VariableEnemies/00_Data_VariableEnemies
+    merge_instructions:
+    - "Files/01_Options/05_VariableEnemies/00_Merge_VariableEnemies.yaml"
+    display_name: Varied enemies
+    description: |
+      Replaces some bandits in the second region (Librium and Argen) with Bounty hunters, and in Vahat with the Kurtadam group.
+
+  - name: english_localization
+    data_dirs:
+    - 00_EnglishLocalization/00_Data_EnglishLocalization
+    merge_instructions:
+    - "Files/01_Options/00_EnglishLocalization/00_Merge_EnglishLocalization.yaml"
+    display_name: English Localization
+    forced_option: True
+    description: Full text-only localization of Different Things.

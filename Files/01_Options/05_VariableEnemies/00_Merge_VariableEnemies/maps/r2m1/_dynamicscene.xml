@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone1"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone3"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone5"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone7"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone9"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone11"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone13"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone15"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone17"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone19"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone21"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone24"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone27"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone32"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone41"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone54"
+        Belong="1006"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="E_InfectionZone63"
+        Belong="1006"/>
+</DynamicScene>

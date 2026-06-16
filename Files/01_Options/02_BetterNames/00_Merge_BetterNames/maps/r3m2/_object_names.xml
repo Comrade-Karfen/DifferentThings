@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="OracleDefendersVil"
+        FullName="Апулько"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Oracle_loc"
+        FullName="Оракул"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod1"
+		FullName="Тидус" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod2"
+		FullName="Старый Том" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod3"
+		FullName="Могильщик Джон" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod4"
+		FullName="Алекс" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod5"
+		FullName="Морриган" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod6"
+		FullName="Гайя" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod7"
+		FullName="Шерман" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod8"
+		FullName="Маклауд" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod9"
+		FullName="Большой Бен" />
+</ObjectNames>

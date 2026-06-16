@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSet"
+        FullName="Сет"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Set_Bar_Barman"
+        FullName="Заведующий Ферен"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheFist"
+        FullName="Фист"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Fist_Bar_Barman"
+        FullName="Бармен Стальоне"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheUluk"
+        FullName="Улук"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Uluk_Bar_Barman"
+        FullName="Бармен Картер"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheRazboynik"
+        FullName="Хайдаут"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheRazboynik_Bar"
+        FullName="Бар ''Синий нос''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheRazboynik_Workshop"
+        FullName="''АвтоЛекарь''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheRazboynik_Shop"
+        FullName="''У децибела''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod1"
+		FullName="Старый Том" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod2"
+		FullName="Рокки" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod3"
+		FullName="Капитан Дрейк" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod4"
+		FullName="Кромвель" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod5"
+		FullName="Морриган" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod6"
+		FullName="Туманный Джек" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod7"
+		FullName="Большой Бен" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod8"
+		FullName="Сварщик Тед" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod9"
+		FullName="Дядя Биф" />
+</ObjectNames>

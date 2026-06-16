@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='FelixsGangSmallGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale FighterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="firewood"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='FelixsGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="firewood"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='r1m2BanditsGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="scrap_metal"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='r1m3BanditsGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="scrap_metal"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='zooGangGenerator']"
+        _Selector="Description[@VehiclesPrototypes='BugForSale BulldogForSale UralForSale BelazForSale MirotvorecForSale'][@PartOfSchwartz='0.2']"
+        VehiclesPrototypes="BugForSale BulldogForSale UralForSale BelazForSale MirotvorecForSale"
+        PartOfSchwartz="0.2"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='GadadGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale FighterEnemySpawn ScoutEnemySpawn "
+        WaresPrototypes="electronics book"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='GadadGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale HunterEnemySpawn ScoutEnemySpawn "
+        WaresPrototypes="electronics book"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='KazifGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="electronics book"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='r4_BanditesGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="BulldogForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="electronics book"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='ARGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="SkatEnemySpawn HunterEnemySpawn FighterEnemySpawn "
+        WaresPrototypes="fuel machinery"
+        GunAffixGeneratorPrototype="townaffixGenerator"
+        PartOfSchwartz="0.35"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='ARGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="SkatEnemySpawn UralForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="fuel machinery electronics"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="Remove"
+        _ParentXPath="Prototype[@Name='ARGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="HunterEnemySpawn FighterEnemySpawn "
+        WaresPrototypes="fuel machinery"
+        GunAffixGeneratorPrototype="townaffixGenerator"
+        PartOfSchwartz="0.35"/>
+
+    <Description
+        _Action="Remove"
+        _ParentXPath="Prototype[@Name='ARGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="UralForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="fuel machinery electronics"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='SNGGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="SkatEnemySpawn HunterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="fuel machinery"
+        GunAffixGeneratorPrototype="townaffixGenerator"
+        PartOfSchwartz="0.35"/>
+
+    <Description
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='SNGGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="SkatEnemySpawn UralForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="fuel machinery electronics"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+    <Description
+        _Action="Remove"
+        _ParentXPath="Prototype[@Name='SNGGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="HunterEnemySpawn ScoutEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="fuel machinery"
+        GunAffixGeneratorPrototype="townaffixGenerator"
+        PartOfSchwartz="0.35"/>
+
+    <Description
+        _Action="Remove"
+        _ParentXPath="Prototype[@Name='SNGGangGenerator']"
+        _SelectorKeys="*"
+        VehiclesPrototypes="UralForSale HunterEnemySpawn ScoutEnemySpawn"
+        WaresPrototypes="fuel machinery electronics"
+        GunAffixGeneratorPrototype="villageaffixGenerator"
+        PartOfSchwartz="0.3"/>
+
+</Prototypes>

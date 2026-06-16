@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown1"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown2"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown3"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown4"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown5"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheGelvetcia"
+        FullName="Гельвеция"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheGelvetcia_House"
+        FullName="Сенат"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSel"
+        FullName="Сель"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTuzz"
+        FullName="Туз"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheDoubtful"
+        FullName="Раздольное"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheDoubtful_Bar"
+        FullName="Бар ''Простор''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheDoubtful_Bar_Barman"
+        FullName="Барменша Луиза"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheUnderAttaks"
+        FullName="Петропавловск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheUnderAttaks_Bar"
+        FullName="Бар ''Стойкий''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheUnderAttaks_Bar_Barman"
+        FullName="Барменша Валентина"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill2"
+        FullName="Роторск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill2_Bar"
+        FullName="Бар ''На обочине''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill2_Bar_Barman"
+        FullName="Барменша Гута"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill1"
+        FullName="Генденбургск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill1_Bar_Barman"
+        FullName="Барменша Жаклин"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheGelvetcia_enter"
+        FullName="Гельвеция"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSel_enter"
+        FullName="Сель"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTuzz_enter"
+        FullName="Туз"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheDoubtful_enter"
+        FullName="Раздольное"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheUnderAttaks_enter"
+        FullName="Петропавловск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill1_enter"
+        FullName="Генденбургск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVill2_enter"
+        FullName="Роторск"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOldSibilla"
+        FullName="Старая Сибилла"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheNewSibilla"
+        FullName="Новая Сибилла"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u1"
+		FullName="Виконт" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u2"
+		FullName="Пит" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u3"
+		FullName="Ричи" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u4"
+		FullName="Джин" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u5"
+		FullName="Мистраль" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u6"
+		FullName="Рэй" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u7"
+		FullName="Шарбон" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u8"
+		FullName="Флёр" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u9"
+		FullName="Мрачный Жан" />
+</ObjectNames>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Chassis']"
+        _SelectorKeys="Name"
+        Name="tankChassis"
+        Mass="300.0"
+        MaxHealth="2000"
+		LoadPoints	= "LP_CAB01"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Baskets']"
+        _SelectorKeys="Name"
+        Name="tankCargo01"
+        Class="Basket"
+        ModelFile="cub"
+        VisibleInEncyclopedia="false"
+        ResourceType="TANK_BASKET"
+        Durability="10"
+        DurCoeffsForDamageTypes="5 5 5"
+        NodeScale="1 1 1"
+        BlowEffect="ET_PS_VEH_PART_BLOW_SMALL_CAB"
+        Price="280000"
+        RepairCoef="0.5"
+        Mass="50.0">
+        <RepositoryDescription
+            RepositorySize="6 6"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="tankCab01"
+        Class="Cabin"
+        ModelFile="tankCab01"
+        ResourceType="TANK_CABIN"
+        NodeScale="1 1 1"
+        Mass="30.0"
+        Durability="200"
+        RepairCoef="0.4"
+        DurCoeffsForDamageTypes="25 25 25"
+        MaxPower="1200"
+        MaxTorque="500"
+        MaxSpeed="70.0"
+        Price="300000"
+        EngineHighSound="ET_S_ENGINE_TANK_HIGH"
+        BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
+        LoadPoints="LP_GIANT01 LP_SML01"
+        VisibleInEncyclopedia="false">
+        <GadgetDescription>
+            <Slot
+                ResourceType="GADGET_COMMON"
+                MaxAmount="4"/>
+
+            <Slot
+                ResourceType="GADGET_WEAPON"
+                MaxAmount="3"/>
+        </GadgetDescription>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="tankWheel01l"
+        Class="Wheel"
+        ModelFile="tankWheel01l"
+        NodeScale="1 1 1"
+        Mass="5"
+        SuspensionModelFile="hunterSusp01"
+        SuspensionCFM="0.001"
+        SuspensionERP="0.25"
+        SuspensionRange="1.0"
+        mU="1.0"
+        EffectType="BIGWHEEL"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="tankWheel01r"
+        Class="Wheel"
+        ModelFile="tankWheel01r"
+        NodeScale="1 1 1"
+        Mass="5"
+        SuspensionModelFile="hunterSusp01"
+        SuspensionCFM="0.001"
+        SuspensionERP="0.25"
+        SuspensionRange="1.0"
+        mU="1.0"
+        EffectType="BIGWHEEL"/>
+
+    <Prototype
+        _Action="Remove"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="tankWheel01"/>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Baskets']"
+        _SelectorKeys="Name"
+        Class="Basket"
+        Name="e_uralCargo00"
+        ModelFile="uralCargo00"
+        ResourceType="URAL_BASKET"
+        Durability="50"
+        DurCoeffsForDamageTypes="0 0 -25"
+        NodeScale="1 1 1"
+        CanBeUsedInAutogenerating="1"
+        VisibleInEncyclopedia="false"
+        Price="9000"
+        RepairCoef="0.3"
+        BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CARGO"
+        Mass="30.0"
+        LoadPoints="LP_BIG01">
+        <RepositoryDescription
+            RepositorySize="4 4">
+            <Slot
+                Name="BASKET_BIG_GUN_0"
+                Pos="2 2"/>
+        </RepositoryDescription>
+
+        <GroupsHealth
+            Main="0"
+            Breakable1="0.5"
+            Breakable2="0.5"
+            Breakable3="0.2"
+            Breakable4="0.7"/>
+    </Prototype>
+</Prototypes>

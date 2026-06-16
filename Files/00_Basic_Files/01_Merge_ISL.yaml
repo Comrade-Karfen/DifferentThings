@@ -1,0 +1,152 @@
+#gamedata
+- commands: Files\00_Basic_Files\00_Merge\gamedata\_resourcetypes.xml     # что объединяем (в файлах мода)
+  targets:  gamedata\resourcetypes.xml                                    # куда объединяем (в файлах игры)
+
+  #gameobjects
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_bigguns.xml
+  targets:  gamedata\gameobjects\bigguns.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_gadgets.xml
+  targets:  gamedata\gameobjects\gadgets.xml
+  
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_gameobjects.xml
+  targets:  gamedata\gameobjects\gameobjects.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_infection.xml
+  targets:  gamedata\gameobjects\infection.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_mortar.xml
+  targets:  gamedata\gameobjects\mortar.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_rockets.xml
+  targets:  gamedata\gameobjects\rockets.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_plasma.xml
+  targets:  gamedata\gameobjects\plasma.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_towns.xml
+  targets:  gamedata\gameobjects\towns.xml
+
+- commands: Files\00_Basic_Files\00_Merge\gamedata\gameobjects\_vehicleparts.xml
+  targets:  gamedata\gameobjects\vehicleparts.xml
+
+- commands: Files\00_Basic_Files\01_Merge_ISL\gamedata\gameobjects\_vehicles.xml      #ISL
+  targets:  gamedata\gameobjects\vehicles.xml
+
+#if
+  #diz
+- commands: Files\00_Basic_Files\01_Merge_ISL\if\diz\_dialogsglobal.xml       #ISL
+  targets:  if\diz\dialogsglobal.xml
+
+- commands: Files\00_Basic_Files\00_Merge\if\diz\_model_names.xml
+  targets:  if\diz\model_names.xml
+
+  #ico_hd
+- commands: Files\00_Basic_Files\00_Merge\if\ico_hd\_modelicons.xml
+  targets:  if\ico_hd\modelicons.xml
+
+  #strings
+- commands: Files\00_Basic_Files\00_Merge\if\strings\_uidescription.xml
+  targets:  if\strings\uidescription.xml
+
+#models
+- commands: Files\00_Basic_Files\00_Merge\models\_animmodels.xml
+  targets:  models\animmodels.xml
+
+#servers
+- commands: Files\00_Basic_Files\00_Merge\maps\servers\_servers_all_regions.xml
+  targets:
+    - maps\mainmenu\servers.xml
+    - maps\r1m1\servers.xml
+    - maps\r1m2\servers.xml
+    - maps\r1m3\servers.xml
+    - maps\r1m4\servers.xml
+    - maps\r1m5\servers.xml               #ISL
+    - maps\r1m6\servers.xml               #ISL
+    - maps\r1m7\servers.xml               #ISL
+    - maps\r2m1\servers.xml
+    - maps\r2m1_bossfight\servers.xml     #ISL
+    - maps\r2m2\servers.xml
+    - maps\r3m1\servers.xml
+    - maps\r3m2\servers.xml
+    - maps\r4m1\servers.xml
+    - maps\r4m2\servers.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\servers\_servers_r1.xml
+  targets:
+    - maps\mainmenu\servers.xml
+    - maps\r1m1\servers.xml
+    - maps\r1m2\servers.xml
+    - maps\r1m3\servers.xml
+    - maps\r1m4\servers.xml
+
+- commands: Files\00_Basic_Files\01_Merge_ISL\maps\servers\_servers_r1_5.xml    #ISL
+  targets:
+    - maps\r1m5\servers.xml
+    - maps\r1m6\servers.xml
+    - maps\r1m7\servers.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\servers\_servers_r2.xml
+  targets:
+    - maps\r2m1\servers.xml
+    - maps\r2m1_bossfight\servers.xml     #ISL
+    - maps\r2m2\servers.xml
+
+- commands: Files\00_Basic_Files\02_Merge_Cruiser\maps\servers\_servers_r2.xml
+  targets:
+    - maps\r2m1_bossfight\servers.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\servers\_servers_r3.xml
+  targets:
+    - maps\r3m1\servers.xml
+    - maps\r3m2\servers.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\servers\_servers_r4.xml
+  targets:
+    - maps\r4m1\servers.xml
+    - maps\r4m2\servers.xml 
+
+#maps
+  #r1m1
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m1\_dynamicscene.xml
+  targets:  maps\r1m1\dynamicscene.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m1\_triggers.xml
+  targets:  maps\r1m1\triggers.xml
+
+  #r1m2
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m2\_dynamicscene.xml
+  targets:  maps\r1m2\dynamicscene.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m2\_triggers.xml
+  targets:  maps\r1m2\triggers.xml
+
+  #r1m3
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m3\_dynamicscene.xml
+  targets:  maps\r1m3\dynamicscene.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m3\_triggers.xml
+  targets:  maps\r1m3\triggers.xml
+
+  #r1m4
+- commands: Files\00_Basic_Files\00_Merge\maps\r1m4\_dynamicscene.xml
+  targets:  maps\r1m4\dynamicscene.xml
+
+  #r1m5
+- commands: Files\00_Basic_Files\01_Merge_ISL\maps\r1m5\_dynamicscene.xml
+  targets:  maps\r1m5\dynamicscene.xml
+
+  #r1m6
+- commands: Files\00_Basic_Files\01_Merge_ISL\maps\r1m6\_dynamicscene.xml
+  targets:  maps\r1m6\dynamicscene.xml
+
+  #r2m1
+- commands: Files\00_Basic_Files\01_Merge_ISL\maps\r2m1\_dynamicscene.xml
+  targets:  maps\r2m1\dynamicscene.xml
+
+- commands: Files\00_Basic_Files\00_Merge\maps\r2m1\_triggers.xml
+  targets:  maps\r2m1\triggers.xml
+
+  #r2m2
+- commands: Files\00_Basic_Files\00_Merge\maps\r2m2\_dynamicscene.xml
+  targets:  maps\r2m2\dynamicscene.xml

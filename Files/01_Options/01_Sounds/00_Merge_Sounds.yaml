@@ -1,0 +1,4 @@
+- commands: Files\01_Options\01_Sounds\00_Merge_Sounds\_radiosamples.xml    # что объединяем (в файлах мода)
+  targets:  sounds\radio\radiosamples.xml             # куда объединяем (в файлах игры)
+- commands: Files\01_Options\01_Sounds\00_Merge_Sounds\_radiosounds.xml
+  targets:  sounds\radio\radiosounds.xml

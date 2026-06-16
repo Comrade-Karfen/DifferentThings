@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="TheBanditOilMine"
+		FullName="Нефтяная вышка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown1"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown2"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown3"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown4"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown5"
+		FullName="Заправка" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Asgard"
+        FullName="Асгард"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Pesht"
+        FullName="Пешт"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheForgotten"
+        FullName="Забытое"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Minin"
+        FullName="Минин"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheShahts"
+        FullName="Горные Шахты"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheVozleMinin"
+        FullName="Поднебесное"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="WorkerForMoney"
+        FullName="Наёмник"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheBase"
+        FullName="База 51"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Asgard_enter"
+        FullName="Асгард"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheForgotten_enter"
+        FullName="Забытое"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheShahts_enter"
+        FullName="Горные Шахты"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r1m3_Circus_1"
+        FullName="Центр Развлечений"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r1m3_Circus_1_enter"
+        FullName="Центр Развлечений"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u1"
+		FullName="Айзенханд" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u2"
+		FullName="Доктор Кройц" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u3"
+		FullName="Кнехт" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u4"
+		FullName="Миф" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u5"
+		FullName="Рейн" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u6"
+		FullName="Молчаливый Гест" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u7"
+		FullName="Штурмфогель" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u8"
+		FullName="Штейн" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="u9"
+		FullName="Эйзен" />
+</ObjectNames>

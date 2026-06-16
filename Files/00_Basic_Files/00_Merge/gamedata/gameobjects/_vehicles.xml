@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="Tank"
+        Class="Vehicle"
+        ResourceType="VEHICLE"
+        DiffRatio="4.0"
+        MaxEngineRpm="5000"
+        LowGearShiftLimit="1000"
+        HighGearShiftLimit="2000"
+        SteeringSpeed="1.4"
+        AdditionalWheelsHover="0.0"
+        HornSound="ET_S_HORN05"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="7.0"
+        TakingRadius="30.0"
+        MassSize="10 1 10"
+        MassTranslation="0 -1.6 0"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+        DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        DriftCoeff="0"
+        Abstract="true">
+        <MainPartDescription
+            id="CHASSIS"
+            partResourceType="TANK_CHASSIS">
+            <PartDescription
+                id="CABIN"
+                partResourceType="TANK_CABIN"
+                lpName="LP_CAB01">
+                <PartDescription
+                    id="CABIN_SMALL_GUN_1"
+                    partResourceType="SMALL_GUN"
+                    lpName="LP_SML01"/>
+
+                <PartDescription
+                    id="TANK_GUN"
+                    partResourceType="TANK_GUN"
+                    lpName="LP_GIANT01"/>
+            </PartDescription>
+
+            <PartDescription
+                id="BASKET"
+                partResourceType="TANK_BASKET"
+                lpName="LP_CAB01"/>
+        </MainPartDescription>
+
+        <Parts>
+            <Part
+                id="CHASSIS"
+                Prototype="tankChassis"/>
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="tankWheel01l"/>
+
+            <Wheel Prototype="tankWheel01r"/>
+
+            <Wheel Prototype="tankWheel01l"/>
+
+            <Wheel Prototype="tankWheel01r"/>
+
+            <Wheel Prototype="tankWheel01l" steering="inverse"/>
+
+            <Wheel Prototype="tankWheel01r" steering="inverse"/>
+        </Wheels>
+    </Prototype>
+
+	<Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+		Name="Tank01"		
+        Class="Vehicle"
+		ParentPrototype="Tank"
+		VisibleInEncyclopedia="true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "tankCab01" />
+			    <Part id = "TANK_GUN"	Prototype = "tank01" />
+			    <Part id = "CABIN_SMALL_GUN_1"	Prototype = "pkt02" />
+			<Part id = "BASKET"		Prototype = "tankCargo01" />
+		</Parts>
+	</Prototype>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r1m1_scout03']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="hornetA01"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r1m3_MerScout']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="hornetA01"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='Tank01']/Parts"
+        _SelectorKeys="id"
+        id="CHASSIS_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='Revolutioner2']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r1m3_Fighter02']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r2m1_HunterNarcBoss']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r2m2_scout01']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r2m2_ShamanHunter01']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Prototype[@Name='r2m2_ShamanHunter02']/Parts"
+        _SelectorKeys="id"
+        id="CABIN_SMALL_GUN"
+        Prototype="pkt02"/>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="FelixVehicle"
+        Class="Vehicle"
+        ParentPrototype="ArcadeScout">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="arcadescoutCab"/>
+
+            <Part
+                id="CABIN_SMALL_GUN"
+                Prototype="pkt02"/>
+
+            <Part
+                id="BASKET"
+                Prototype="fakeCargo"/>
+        </Parts>
+    </Prototype>
+</Prototypes>

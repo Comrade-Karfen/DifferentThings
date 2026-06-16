@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="skatCab01"
+        file="data\if\ico_hd\InventoryDlg\other\FakeCargo.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="skatCargo01"
+        file="data\if\ico_hd\InventoryDlg\other\FakeCargo.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="tankCab01"
+        file="data\if\ico_hd\InventoryDlg\other\FakeCargo.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="tankCargo01"
+        file="data\if\ico_hd\InventoryDlg\other\FakeCargo.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="anti_missile_system"
+        file="data\if\ico_hd\InventoryDlg\Gadgets\AntiMissileSystem.dds"
+        file1=""/>
+
+    <Item
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="fakeCargo"
+        file="data\if\ico_hd\InventoryDlg\other\FakeCargo.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bigfakeCargo"
+        file="data\if\ico_hd\InventoryDlg\other\FakeCargo.dds"
+        file1=""/>
+
+    <Item
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="arcadescoutCab"
+        file="data\if\ico_hd\InventoryDlg\other\ArcadeScoutCab.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogCabRace"
+        file="data\if\ico_hd\InventoryDlg\bulldog\cab_01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogCab01"
+        file="data\if\ico_hd\InventoryDlg\bulldog\cab_01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogCab02"
+        file="data\if\ico_hd\InventoryDlg\bulldog\cab_02.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogCargo00"
+        file="data\if\ico_hd\InventoryDlg\bulldog\cargo_00.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogCargo01"
+        file="data\if\ico_hd\InventoryDlg\bulldog\cargo_01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bulldogCargo02"
+        file="data\if\ico_hd\InventoryDlg\bulldog\cargo_02.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ares01"
+        file="data\if\ico_hd\InventoryDlg\weapon\ares01.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\ares01_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hunterLauncher"
+        file="data\if\ico_hd\InventoryDlg\weapon\giant_hunter.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\giant_hunter_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hunterLauncher_unlimit"
+        file="data\if\ico_hd\InventoryDlg\weapon\giant_hunter.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\giant_hunter_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="fly01"
+        file="data\if\ico_hd\InventoryDlg\weapon\fly01.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\fly01_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bofors01"
+        file="data\if\ico_hd\InventoryDlg\weapon\bofors01.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\bofors01_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="abzac01"
+        file="data\if\ico_hd\InventoryDlg\weapon\abzac.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\abzac_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="vulcan02"
+        file="data\if\ico_hd\InventoryDlg\weapon\Vulcan2.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\Vulcan2_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="needle01"
+        file="data\if\ico_hd\InventoryDlg\weapon\needle01.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\needle01_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="hornetA01"
+        file="data\if\ico_hd\InventoryDlg\weapon\HornetA.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\HornetA_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="pktu01"
+        file="data\if\ico_hd\InventoryDlg\weapon\Pktu.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\Pktu_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="pkt02"
+        file="data\if\ico_hd\InventoryDlg\weapon\Pkt2.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\Pkt2_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="browning01"
+        file="data\if\ico_hd\InventoryDlg\weapon\browning.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\browning_min.dds"/>
+</icons>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="trA"
+        active="0">
+        <event timeout="1" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+                    if GetPlayerVehicle() then 
+                        GetPlayerVehicle():SetNameFromScript( "PlayerCarGonki" )
+                        SaveWeaponGroups()
+                    end
+                    CapturePlayerVehicle(0, "PlayerRace")
+                    AddPlayerMoney(-10000)
+
+                    local maxcar = GetVar("CountCar").AsInt
+                    for i=1,maxcar-1 do
+                        local veh = CreateVehicleEx("BulldogRace_NoPlayer","FormulaCar"..i,  CVector(getPos("RaceStart"..i.."_loc"))+CVector(0,1,0), 1100)
+                        if veh then 
+                           veh:SetRotation(Quaternion(0.000, -0.999, 0.000, 0.050))
+                           local sk=random(8)-1
+
+                           while sk==2 do
+                              sk=random(8)-1
+                           end
+                           veh:SetRandomSkin()
+                           veh:SetForcedMaxTorque(1500)
+                           veh:SetMaxSpeed(2000)
+                           veh:SetCruisingSpeed(1500)
+                        end
+                    end
+                    local plcar=CreateVehicleEx("BulldogRace","PlayerFormula",  CVector(getPos("RaceStart8_loc"))+CVector(0,1,0), 1100)
+                    local pl=g_Player
+                    if pl and plcar then 
+                       plcar:SetRotation(Quaternion(0.000, -0.999, 0.000, 0.050))
+                       plcar:SetSkin(2) 
+                       plcar:setImmortalMode(1)
+                       pl:AddChild(plcar)
+                    end
+
+                    local explayercar = getObj("PlayerCarGonki")
+                    if explayercar then
+                        explayercar:SetGamePositionOnGround(CVector(4410.569, 281.094, 2051.014))
+                        explayercar:SetRotation(Quaternion(0.003, 0.571, 0.001, 0.821))
+                        explayercar:SetCustomControlEnabled( true )
+                        explayercar:SetCustomLinearVelocity( 0 )
+                        explayercar:SetThrottle( 0 )
+                        explayercar:SetCustomControlEnabled( false )
+                    end
+
+
+                    SetVar("nummsg",5)
+                    SetVar("PlayerPlace",8)
+                    SetVar("NextPoint",2)
+                    for j=0,7 do
+                        SetVar("LapCount"..j,0)
+                    end
+                    SetVar("CarCurSide1","2")
+                    SetVar("CarCurSide2","1")
+                    SetVar("CarCurSide3","3")
+                    SetVar("CarCurSide4","2")
+                    SetVar("CarCurSide5","3")
+                    SetVar("CarCurSide6","1")
+                    SetVar("CarCurSide7","2")
+
+                    local maxlap = GetVar("MaxLap").AsInt
+                    for j=1,8 do
+                        for k=0,maxlap-1 do
+                            SetVar("PointCarCount"..k.."_"..j,0)
+                        end
+                    end
+
+                    TActivate("trRaceTimer")
+                    TActivate("trFalseStar")
+                    TActivate("trRaceCarDie")
+                    TActivate("trCheckPoints")
+                    TActivate("trPlayerFormulaDie")
+                    AllowSave( false )
+                    trigger:Deactivate()
+        </script>
+    </trigger>
+</triggers>

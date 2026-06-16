@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTuzz']/Object[@Name='TheTuzz_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheSel']/Object[@Name='TheSel_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGelvetcia']/Object[@Name='TheGelvetcia_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+</DynamicScene>

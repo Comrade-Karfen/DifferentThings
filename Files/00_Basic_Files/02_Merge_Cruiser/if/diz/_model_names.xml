@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>	
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCab01"
+        locForm="0"
+        value="Потёмкин"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCab02"
+        locForm="0"
+        value="Чапаев"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCab03"
+        locForm="0"
+        value="Сусанин"/>
+
+    <Item
+        _Action="Modify"
+        _SelectorKeys="id,locForm"
+        id="cruiserCargo01"
+        locForm="0"
+        value="Кайман"/>
+
+    <Item
+        _Action="Modify"
+        _SelectorKeys="id,locForm"
+        id="cruiserCargo02"
+        locForm="0"
+        value="Крокодил"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCargo03"
+        locForm="0"
+        value="Аллигатор"/>
+</ModelNames>

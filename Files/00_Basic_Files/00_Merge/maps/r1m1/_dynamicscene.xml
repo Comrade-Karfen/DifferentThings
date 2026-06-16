@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        PosX="0"
+        PosY="0"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

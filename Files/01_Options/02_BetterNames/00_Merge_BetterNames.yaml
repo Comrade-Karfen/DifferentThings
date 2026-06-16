@@ -1,0 +1,49 @@
+#if
+  #diz
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\if\diz\_model_names.xml
+  targets:  if\diz\model_names.xml
+
+  #strings
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\if\strings\_clansdiz.xml
+  targets:  if\strings\clansdiz.xml
+
+#maps
+  #r1m1
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r1m1\_object_names.xml
+  targets:  maps\r1m1\object_names.xml
+
+  #r1m2
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r1m2\_object_names.xml
+  targets:  maps\r1m2\object_names.xml
+
+  #r1m3
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r1m3\_object_names.xml
+  targets:  maps\r1m3\object_names.xml
+
+  #r1m4
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r1m4\_object_names.xml
+  targets:  maps\r1m4\object_names.xml
+
+  #r2m1
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r2m1\_object_names.xml
+  targets:  maps\r2m1\object_names.xml
+
+  #r2m2
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r2m2\_object_names.xml
+  targets:  maps\r2m2\object_names.xml
+  
+  #r3m1
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r3m1\_object_names.xml
+  targets:  maps\r3m1\object_names.xml
+
+  #r3m2
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r3m2\_object_names.xml
+  targets:  maps\r3m2\object_names.xml
+
+  #r4m1
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r4m1\_object_names.xml
+  targets:  maps\r4m1\object_names.xml
+
+  #r4m2
+- commands: Files\01_Options\02_BetterNames\00_Merge_BetterNames\maps\r4m2\_object_names.xml
+  targets:  maps\r4m2\object_names.xml

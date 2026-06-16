@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Class="PlasmaBunch"
+		Name="somePlasmaBunch"		
+		Velocity="800"
+		Acceleration="1000"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="somePlasmaBunchBig"		
+		Velocity="800"
+		Acceleration="1000"/>
+
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="someLaserBeamGreen"		
+		Velocity="1000"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="someLaserBeamBlue"		
+		Velocity="1000"/>
+</Prototypes>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<resource>
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="SkatEnemySpawn_diz"
+        value="Heavily armored military vehicle created on the basis of a tank. Poses a serious threat in any battle."/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="anti_missile_system_diz"
+        value="This device creates interference that makes it difficult for homing missiles to hit your vehicle."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="ares01_diz"
+        value="Heavy plasma cannon, the result of a mad engineer's work who decided that one plasma charge was not enough. The main feature of this weapon is the ability to fire three shots in a row, but after that it requires long cooling."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="hunterLauncher_diz"
+        value="A cheap analogue of the &quot;Dragon&quot; rocket launcher."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="fly01_diz"
+        value="A small but relatively lethal makeshift cannon. Its reliability leaves much to be desired."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="bofors01_diz"
+		value="A four–shot 40 mm anti-aircraft machine gun is more than just a decisive argument. Originally designed to combat aerial targets, it was re-equipped to meet new realities." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="needle01_diz"
+        value="The &quot;Mrak&quot; rocket launcher, converted for installation in a small slot. Despite its modest size, it retains its lethal power."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="bulldogCab01_diz"
+		value="The Bulldog cabin is in the basic configuration. It has only one weapon slot, but its speed and armor make it possible to avoid dangerous situations." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="bulldogCab02_diz"
+		value="This cabin allows you to place more weapons than the standard version. A good balance of firepower and dynamics allows you to respond to the enemy without losing the advantage in speed." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="Bulldog01_diz"
+		value="A fast and maneuverable lightly armored vehicle capable of carrying enough weapons to pose a danger in one-on-one combat. Its unusual design often misleads the enemy, but it ensures its incredible maneuverability." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="browning01_diz"
+		value="The Browning is a large-caliber machine gun, assembled according to old drawings and converted to modern conditions. It is characterized by high firepower and rate of fire. It is very effective against lightly armored vehicles." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="pktu01_diz"
+		value="A simplified version of the PKT. It is inferior in efficiency to the original, but it is cheaper. A good choice for those who have to save every coin." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="pkt02_diz"
+		value="A limited batch of PKT machine guns was converted to 12.7 mm caliber, which significantly increased their firepower. A rare and valuable specimen - not everyone can get one." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="vulcan02_diz"
+		value="A modified version of the Vulkan machine gun. The recoil has become more serious, but the increased firepower is worth it." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="hornetA01_diz"
+		value="The American version of the Hornet machine gun. In terms of characteristics, it almost does not differ from its European counterpart. The differences are only in the markings, minor assembly details, and distinctive coloring." />		
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="rapier02_diz"
+		value="A three-barrel long-range cannon with a rotary mechanism based on a Rapier. In terms of firepower and fire density, it is significantly superior to the original." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="abzac01_diz"
+		value="A very good artisanal shotgun, which has only two drawbacks: a long reload and low reliability of the design." />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="cruiserCab01_diz"
+		value="This cabin model is uncomplicated, but it has decent characteristics. Designed for harsh environments: it is not afraid of dust, moisture and temperature fluctuations." />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="cruiserCab02_diz"
+		value="A modified version of the Cruiser's cockpit with significantly improved performance. Despite the increased armor, maneuverability and maneuverability remained at the same level thanks to the upgraded engine." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="cruiserCab03_diz"
+        value="The best cabin model for a Cruiser. You can put a giant gun on this miracle of technology, and the enemies can only wait for death or escape."/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="cruiserCargo01_diz"
+		value="The usual body of a Cruiser, which has hardly changed since ancient times. A place is provided for the installation of heavy weapons. A small cargo hold holds only what little remains of the enemy." />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="cruiserCargo02_diz"
+        value="In this redesigned cabin, the cargo compartment has been expanded and a mount for a rocket launcher has been provided, but the space for a large-caliber gun has been removed."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="cruiserCargo03_diz"
+        value="The most successful model combines both an extended cargo compartment and a rocket launcher mount, as well as the possibility of installing a large-caliber cannon."/>
+</resource>

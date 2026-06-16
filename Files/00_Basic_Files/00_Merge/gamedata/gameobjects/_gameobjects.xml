@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Folder
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="DTParts"
+        File="DTParts.xml"/>
+
+    <Folder
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Guns']"
+        _SelectorKeys="Name"
+        Name="DTGuns"
+        File="DTGuns.xml"/>
+
+    <Folder
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="DTVehicles"
+        File="DTVehicles.xml"/>
+</Prototypes>

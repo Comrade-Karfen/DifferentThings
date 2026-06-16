@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Esting"
+        FullName="Кейтберг"/>
+
+	<Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="TheOilVillage"
+		FullName="Заброшенная станция" />
+
+	<Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="PetrolStationTown2"
+		FullName="Рязанское" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="PetrolStationTown3"
+        FullName="Чугуевка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="r5_Malinovka_1"
+        FullName="Малиновка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheTown"
+        FullName="Моска"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheDreenorVillage"
+        FullName="Северка"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="SerafimaHouse"
+        FullName="Дом Серафимы"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheSerafimaHouse_Workshop"
+        FullName="Дом Серафимы"/>
+</ObjectNames>

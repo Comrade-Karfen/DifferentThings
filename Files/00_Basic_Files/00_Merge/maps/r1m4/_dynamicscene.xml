@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Shop']/GunsAndGadgets"
+        _SelectorKeys="Prototype"
+        Prototype="anti_missile_system"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="bulldogCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheOlme']/Object[@Name='Olme_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="BulldogForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

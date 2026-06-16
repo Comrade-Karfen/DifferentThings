@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="GunSlot_4x4"
+        file="data\if\ico\WeaponInfoList\WeaponSlots\weapon44b.dds"
+        file1="data\if\ico\WeaponInfoList\WeaponSlots\weapon44r.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TANK_GUN"
+        file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"
+        file1=""/>
+</icons>

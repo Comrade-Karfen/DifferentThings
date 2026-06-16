@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOlme"
+        FullName="Ольм"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Olme_Bar"
+        FullName="Бар ''На окраине''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Olme_Bar_Barman"
+        FullName="Бармен Симон"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVOnOcean"
+        FullName="Салиниом"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVOnOcean_Bar"
+        FullName="Бар ''У моря''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVOnOcean_Bar_Barman"
+        FullName="Бармен Сигмунд"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVNearOlme"
+        FullName="Лаука"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVNearOlme_Bar"
+        FullName="Бар ''Селинд''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVNearOlme_Bar_Barman"
+        FullName="Бармен Торфинн"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVCalis"
+        FullName="Калис"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVCalis_Bar"
+        FullName="Бар ''Гладиатор''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVCalis_Bar_Barman"
+        FullName="Бармен Рольф"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVCordan"
+        FullName="Кордан"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVCordan_Bar"
+        FullName="Закусочная ''Пасть акулы''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVPerch_Bar"
+        FullName="Бар ''Золотая жила''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVPerch_Bar_Barman"
+        FullName="Барменша Сиф"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVBerko_Bar"
+        FullName="Бар ''Закоулок''"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVBerko_Bar_Barman"
+        FullName="Барменша Астрид"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="StorageVil"
+        FullName="Склад"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="StorageVil_enter"
+        FullName="Склад"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="TheOlme_enter"
+        FullName="Ольм"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="FVPerch_enter"
+        FullName="Перчь"/>
+        
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="bigboss1"
+		FullName="Погрузчик" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod1"
+		FullName="Рагнар Ржавый" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod2"
+		FullName="Слепой Ульф" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod3"
+		FullName="Скьёльд" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod4"
+		FullName="Лейф Чокнутый" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod5"
+		FullName="Видар" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod6"
+		FullName="Пьяный Бьёрн" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod7"
+		FullName="Сигурд" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod8"
+		FullName="Безногий Нильс" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod9"
+		FullName="Эрик Невезучий" />
+</ObjectNames>

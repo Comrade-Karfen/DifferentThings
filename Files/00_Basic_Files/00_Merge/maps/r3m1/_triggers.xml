@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="trPlaceSecret"
+        active="1">
+        <event timeout="0.1" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            local i=1
+            local gunlist = {"pktu01","pkt01","kord01","storm01","browning01","maxim01","vulcan01","kpvt01","rapier01","flag01","rainmetal01","bofors01","elephant01","odin01","omega01","bumblebee01","hammer01","hunterSideGun","mrakSideGun","big_swingfire01","cyclops01","octopus01","hailSideGun","hurricane01","rocketLauncher","zeusSideGun","marsSideGun"}
+            local len = getn(gunlist)
+
+            while getObj("SecretPlace"..i.."_loc")~=nil do
+--              println(i)
+                CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
+                i = i + 1
+            end
+
+            trigger:Deactivate()
+        </script>
+    </trigger>
+</triggers>

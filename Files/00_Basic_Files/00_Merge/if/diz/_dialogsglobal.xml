@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DialogsResource>
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="HaveBigBoom_hellodlg0_1"
+        scriptCondition="HasPlayerFreePlaceForItems('fly01', 1 )"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="Dlg_npc_000593"
+        scriptCondition="not(HasPlayerFreePlaceForItems( 'fly01', 1 ))"/>
+
+    <Reply
+        _Action="Modify"
+        _SelectorKeys="name"
+        name="HaveBigBoom_hellodlg0_P1_1"
+        scriptResult="AddPlayerItemsWithBox( 'fly01', 1, 0, CVector(3229,319,1254));  CompleteQuest('d_GetBigBoom_Quest');  TActivate('METALFELIX2');  EndConversation()"/>
+</DialogsResource>

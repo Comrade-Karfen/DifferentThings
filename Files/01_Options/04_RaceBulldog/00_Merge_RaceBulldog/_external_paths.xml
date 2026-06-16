@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Paths>
+    <Path
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="Gonka_StartPath_L">
+        <Point coord="4163.588 2003.877"/>
+
+        <Point coord="4161.073 1779.204"/>
+
+        <Point coord="4182.326 1567.216"/>
+    </Path>
+
+    <Path
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="Gonka_StartPath_M">
+        <Point coord="4156.388 1982.333"/>
+
+        <Point coord="4155.288 1762.128"/>
+
+        <Point coord="4172.453 1565.979"/>
+    </Path>
+
+    <Path
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="Gonka_StartPath_R">
+        <Point coord="4151.743 1988.634"/>
+
+        <Point coord="4151.790 1772.410"/>
+
+        <Point coord="4166.277 1563.235"/>
+    </Path>
+</Paths>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="tankCab01"
+        locForm="0"
+        value="Tank"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="tankCargo01"
+        locForm="0"
+        value="Cargo hold"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="SkatEnemySpawn"
+        locForm="0"
+        value="Stingray"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="skatCab01"
+        locForm="0"
+        value="Cabin"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="skatCargo01"
+        locForm="0"
+        value="Cargo hold"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="BulldogForSale"
+        locForm="0"
+        value="Bulldog"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="Bulldog01"
+        locForm="0"
+        value="Bulldog"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="BulldogRace"
+        locForm="0"
+        value="Bulldog GT"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="BulldogRace_NoPlayer"
+        locForm="0"
+        value="Bulldog GT"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCabRace"
+        locForm="0"
+        value="Cabin"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCab01"
+        locForm="0"
+        value="Wanderer"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCab02"
+        locForm="0"
+        value="Ranger"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCargo00"
+        locForm="0"
+        value="Trunk"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCargo01"
+        locForm="1"
+        value="Spare Wheel"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bulldogCargo02"
+        locForm="0"
+        value="Box"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="ares01"
+        locForm="0"
+        value="Ares"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="fly01"
+        locForm="1"
+        value="Imp"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="bofors01"
+        locForm="0"
+        value="Bofors"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="hunterLauncher"
+        locForm="0"
+        value="Trapper"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="hunterLauncher_unlimit"
+        locForm="0"
+        value="Trapper"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="needle01"
+        locForm="1"
+        value="Gimlet"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="abzac01"
+        locForm="0"
+        value="Bastard"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="hornetA01"
+        locForm="0"
+		value="American Hornet" />		
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="pktu01"
+        locForm="0"
+		value="PKTU" />
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="pkt02"
+        locForm="0"
+		value="Pecheneg" />
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="browning01"
+        locForm="0"
+		value="Browning" />		
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCab01"
+        locForm="0"
+        value="Potemkin"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCab02"
+        locForm="0"
+        value="Chapaev"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCab03"
+        locForm="0"
+        value="Susanin"/>
+
+    <Item
+        _Action="Modify"
+        _SelectorKeys="id,locForm"
+        id="cruiserCargo01"
+        locForm="0"
+        value="Kaiman"/>
+
+    <Item
+        _Action="Modify"
+        _SelectorKeys="id,locForm"
+        id="cruiserCargo02"
+        locForm="0"
+        value="Crocodile"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="cruiserCargo03"
+        locForm="0"
+        value="Alligator"/>
+</ModelNames>

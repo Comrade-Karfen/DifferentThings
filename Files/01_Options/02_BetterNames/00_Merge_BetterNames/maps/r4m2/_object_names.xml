@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ObjectNames>
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ScientiferVillage"
+        FullName="Посёлок учёного"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ScientiferVillage_Bar_Scientif"
+        FullName="Учёный Василий"/>
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod1"
+		FullName="Код 6" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod2"
+		FullName="Серво" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod3"
+		FullName="Борг" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod4"
+		FullName="Призрак-17" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod5"
+		FullName="Скорп" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod6"
+		FullName="Красный-13" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod7"
+		FullName="Шерман" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod8"
+		FullName="Сорок седьмой" />
+
+    <Object
+        _Action="Modify"
+        _SelectorKeys="Name"
+		Name="urod9"
+		FullName="Ядерный Дюк" />
+</ObjectNames>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource>
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="Belong_1024_diz"
+        value="Коренные жители Вахата, скитающиеся по пустыне. Иногда готовы торговать с чужаками, но чаще просто атакуют без предупреждения."/>
+
+</resource>

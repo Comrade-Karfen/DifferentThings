@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Cruiser"
+        PressingForce="2.0"
+        MaxEngineRpm="8000"
+        LowGearShiftLimit="3000"
+        HighGearShiftLimit="5500"
+        SteeringSpeed="0.6"
+        CameraHeight="5.25"
+        CameraMaxDist="25"
+        HornSound="ET_S_HORN03"
+        IntersectionRadius="6.5"
+		MassSize="7 3 8"
+		MassTranslation="0 -1.0 0"        
+        DriftCoeff="0.08"
+        AdditionalWheelsHover="0.1">       
+    </Prototype>
+
+    <PartDescription
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='Cruiser']/MainPartDescription[@id='CHASSIS']/PartDescription[@id='CABIN']"
+        _SelectorKeys="id"
+        id="CABIN_GIANT_GUN"
+        partResourceType="GIANT_GUN"
+        lpName="LP_GIANT01"/>  
+
+    <PartDescription
+        _Action="AddOrReplace"
+        _ParentXPath="Prototype[@Name='Cruiser']/MainPartDescription[@id='CHASSIS']/PartDescription[@id='BASKET']"
+        _SelectorKeys="id"
+        id="BASKET_SPECIAL_WEAPON"
+        partResourceType="SPECIAL_WEAPON"/> 
+</Prototypes>

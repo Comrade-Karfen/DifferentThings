@@ -1,0 +1,32 @@
+#maps
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r1m2.xml
+  targets:
+    - maps\r1m2\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r1m3.xml
+  targets:
+    - maps\r1m3\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r1m4.xml
+  targets:
+    - maps\r1m4\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r1m5.xml
+  targets:
+    - maps\r1m5\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r2m1.xml
+  targets:
+    - maps\r2m1\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r2m2.xml
+  targets:
+    - maps\r2m2\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r3m1.xml
+  targets:
+    - maps\r3m1\dynamicscene.xml
+
+- commands: Files\01_Options\03_Cartographers\00_Merge_Cartographers\_r4m1.xml
+  targets:
+    - maps\r4m1\dynamicscene.xml

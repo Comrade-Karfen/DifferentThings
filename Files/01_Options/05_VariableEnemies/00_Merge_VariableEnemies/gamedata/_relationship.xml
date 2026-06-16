@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<relationship>
+    <set
+        _Action="Add"
+        _SelectorKeys="forwhom,tolerance"
+        forwhom="1006"
+        tolerance="neutral"
+        who="1003 1004 1008 1015 1016 1017 1040 1041 1043 1048"/>
+
+    <set
+        _Action="AddOrReplace"
+        _SelectorKeys="forwhom,who"
+        forwhom="1024"
+        tolerance="enemy"
+        who="1100"/>
+</relationship>
