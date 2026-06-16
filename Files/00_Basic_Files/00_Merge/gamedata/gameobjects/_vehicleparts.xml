@@ -31,8 +31,15 @@
     </Prototype>
 
     <Prototype
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="tankCab01">
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Cabins']"
         _SelectorKeys="Name"
         Name="tankCab01"
         Class="Cabin"
