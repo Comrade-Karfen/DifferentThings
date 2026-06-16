@@ -70,8 +70,6 @@ prerequisites:
 incompatible:
   - name: AbsqueNota
     versions: []
-  - name: ATM
-    versions: []
 
 optional_content:
   - name: 03_Cartographers

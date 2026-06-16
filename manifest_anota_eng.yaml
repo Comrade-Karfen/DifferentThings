@@ -66,8 +66,6 @@ prerequisites:
 incompatible:
   - name: improved_storyline_hd
     versions: []
-  - name: ATM
-    versions: []
 
 optional_content:
   - name: 03_Cartographers

@@ -69,8 +69,6 @@ incompatible:
     - english_localization
   - name: improved_storyline_hd
     versions: []
-  - name: ATM
-    versions: []
 
 optional_content:
   - name: 01_Sounds
