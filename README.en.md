@@ -1,4 +1,4 @@
-![banner](https://github.com/user-attachments/assets/ae065ca5-8af2-4ec7-8db3-f71584e4e566)
+![banner](https://github.com/Comrade-Karfen/DifferentThings/blob/main/Assets/banner.png)
   <p align="center">
     <a href="https://github.com/Comrade-Karfen/DifferentThings/releases/latest">
         <img src="https://img.shields.io/badge/Different Things-v1.4-0c7307" alt="Latest release"/>
