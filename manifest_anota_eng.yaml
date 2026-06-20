@@ -6,7 +6,7 @@ installment: exmachina
 # required human readable info
 display_name: Different Things [Absque nota]
 description: |
-  Different Things - a mod that adds the «Bulldog» vehicle to the game's shops, as well as expands the player's arsenal with new types of weapons and gadgets. Additionally, the mod makes some balance and gameplay tweaks, and increases enemy variety.
+  Different Things - a mod that adds the «Cruiser» and «Bulldog» vehicles to the game's shops, as well as expands the player's arsenal with new types of weapons and gadgets. Additionally, the mod makes some balance and gameplay tweaks, and increases enemy variety.
 authors: MrKarfen
 
 # optional human readable info
@@ -48,8 +48,10 @@ strict_requirements: false
 
 data_dirs:
   - "Files/00_Basic_Files/00_Data"
+  - "Files/00_Basic_Files/02_Data_Cruiser_Anota"
 merge_instructions:
   - "Files/00_Basic_Files/00_Merge.yaml"
+  - "Files/00_Basic_Files/02_Merge_Cruiser_Anota.yaml"
 
 options_base_dir: "Files/01_Options"
  
@@ -99,7 +101,7 @@ optional_content:
     data_dirs:
     - 00_EnglishLocalization/00_Data_EnglishLocalization
     merge_instructions:
-    - "Files/01_Options/00_EnglishLocalization/00_Merge_EnglishLocalization.yaml"
+    - "Files/01_Options/00_EnglishLocalization/00_Merge_EnglishLocalization_Anota.yaml"
     display_name: English Localization
     forced_option: True
     description: Full text-only localization of Different Things.

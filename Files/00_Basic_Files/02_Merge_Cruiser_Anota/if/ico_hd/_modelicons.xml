@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCab01"
+        file="data\if\ico_hd\InventoryDlg\cruizer\cruizer_cab01.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCab02"
+        file="data\if\ico_hd\InventoryDlg\cruizer\cruizer_cab02.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCab03"
+        file="data\if\ico_hd\InventoryDlg\cruizer\cruizer_cab03.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCargo01"
+        file="data\if\ico_hd\InventoryDlg\cruizer\cruizer_cargo01.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCargo02"
+        file="data\if\ico_hd\InventoryDlg\cruizer\cruizer_cargo02.dds"
+        file1=""/>
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCargo03"
+        file="data\if\ico_hd\InventoryDlg\cruizer\cruizer_cargo03.dds"
+        file1=""/>
+</icons>

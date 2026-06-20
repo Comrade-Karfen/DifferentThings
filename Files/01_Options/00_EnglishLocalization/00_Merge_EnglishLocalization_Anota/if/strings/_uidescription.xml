@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<resource>
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="DT_CruiserCab01_diz"
+		value="This cabin model is uncomplicated, but it has decent characteristics. Designed for harsh environments: it is not afraid of dust, moisture and temperature fluctuations." />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="DT_CruiserCab02_diz"
+		value="A modified version of the Cruiser's cockpit with significantly improved performance. Despite the increased armor, maneuverability and maneuverability remained at the same level thanks to the upgraded engine." />
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCab03_diz"
+        value="The best cabin model for a Cruiser. You can put a giant gun on this miracle of technology, and the enemies can only wait for death or escape."/>
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="DT_CruiserCargo01_diz"
+		value="The usual body of a Cruiser, which has hardly changed since ancient times. A place is provided for the installation of heavy weapons. A small cargo hold holds only what little remains of the enemy." />
+
+    <string
+        _Action="Modify"
+        _SelectorKeys="id"
+        id="DT_CruiserCargo02_diz"
+        value="In this redesigned cabin, the cargo compartment has been expanded and a mount for a rocket launcher has been provided, but the space for a large-caliber gun has been removed."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
+        id="DT_CruiserCargo03_diz"
+        value="The most successful model combines both an extended cargo compartment and a rocket launcher mount, as well as the possibility of installing a large-caliber cannon."/>
+</resource>

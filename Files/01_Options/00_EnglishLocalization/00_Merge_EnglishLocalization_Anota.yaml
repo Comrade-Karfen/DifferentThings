@@ -1,0 +1,21 @@
+#if
+  #diz
+- commands: Files\01_Options\00_EnglishLocalization\00_Merge_EnglishLocalization\if\diz\_model_names.xml
+  targets:  if\diz\model_names.xml
+
+- commands: Files\01_Options\00_EnglishLocalization\00_Merge_EnglishLocalization_Anota\if\diz\_model_names.xml
+  targets:  if\diz\model_names.xml
+
+  #strings
+- commands: Files\01_Options\00_EnglishLocalization\00_Merge_EnglishLocalization\if\strings\_uidescription.xml
+  targets:  if\strings\uidescription.xml
+
+- commands: Files\01_Options\00_EnglishLocalization\00_Merge_EnglishLocalization_Anota\if\strings\_uidescription.xml
+  targets:  if\strings\uidescription.xml
+
+  #strings
+- commands: Files\01_Options\00_EnglishLocalization\00_Merge_EnglishLocalization\if\strings\_clansdiz.xml
+  targets:  if\strings\clansdiz.xml
+
+- commands: Files\01_Options\00_EnglishLocalization\00_Merge_EnglishLocalization_ISL\if\diz\_dialogsglobal.xml
+  targets:  if\diz\dialogsglobal.xml

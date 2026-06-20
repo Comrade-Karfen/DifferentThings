@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="DT_CruiserForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="DT_CruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="DT_CruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="DT_CruiserCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="1"
+        Prototype="DT_CruiserCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="DT_CruiserCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="DT_CruiserCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="1"
+        Prototype="DT_CruiserCargo03"/>
+</DynamicScene>

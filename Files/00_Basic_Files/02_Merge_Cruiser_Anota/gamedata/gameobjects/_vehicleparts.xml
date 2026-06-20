@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Chassis']"
+        _SelectorKeys="Name"
+		Class="Chassis"
+		Name="DT_CruiserChassis"
+		ModelFile="DT_CruiserChassis"
+		ResourceType="DT_CRUISER_CHASSIS"
+		NodeScale="1 1 1"
+        Price="40000"
+        RepairCoef="0.2"
+        Mass="80.0"
+		MaxHealth="2500" 
+		MaxFuel="600" 
+		BrakingSound="ET_S_BRAKE01"
+		PneumoSound="ET_S_PNEUMO_BRAKE01"
+		GearShiftSound="ET_S_GEAR_SHIFT01"
+		LoadPoints="LP_CAB01 LP_BSK01" >
+				<GroupsHealth
+					Main   = "10000"/>
+		</Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Cabins']"
+        _SelectorKeys="Name"
+        Name="DT_CruiserCab01"
+        Class="Cabin"
+        ModelFile="DT_CruiserCab01"
+        ResourceType="DT_CRUISER_CABIN"
+        NodeScale="1 1 1"
+        Durability="160"
+        DurCoeffsForDamageTypes="5 5 0"
+        Mass="55"
+        EngineHighSound="ET_S_ENGINE_CRUISER_1_HIGH"
+        BlowEffect="ET_PS_VEH_PART_BLOW_SMALL_CAB"
+        FuelConsumption="0.4"
+        RepairCoef="0.5"
+        MaxPower="600"
+        MaxTorque="280"
+        Price="75000"
+        MaxSpeed="140.0"
+        LoadPoints="LP_BIG01">
+        <GadgetDescription>
+            <Slot
+                ResourceType="GADGET_COMMON"
+                MaxAmount="2"/>
+
+            <Slot
+                ResourceType="GADGET_WEAPON"
+                MaxAmount="2"/>
+        </GadgetDescription>
+
+        <GroupsHealth
+            Main="5"
+            Breakable1="0.5"
+            Breakable2="1.25"
+            Breakable3="0.75"
+            Breakable4="0.75"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Cabins']"
+        _SelectorKeys="Name"
+        Name="DT_CruiserCab02"
+        Class="Cabin"
+        ModelFile="DT_CruiserCab02"
+        ResourceType="DT_CRUISER_CABIN"
+        NodeScale="1 1 1"
+        Durability="165"
+        DurCoeffsForDamageTypes="10 10 5"
+        Mass="65"
+        MaxPower="1000"
+        EngineHighSound="ET_S_ENGINE_CRUISER_1_HIGH"
+        BlowEffect="ET_PS_VEH_PART_BLOW_SMALL_CAB"
+        FuelConsumption="0.4"
+        RepairCoef="0.5"
+        MaxTorque="300"
+        Price="95000"
+        MaxSpeed="150.0"
+        LoadPoints="LP_BIG01">
+        <GadgetDescription>
+            <Slot
+                ResourceType="GADGET_COMMON"
+                MaxAmount="2"/>
+
+            <Slot
+                ResourceType="GADGET_WEAPON"
+                MaxAmount="3"/>
+        </GadgetDescription>
+
+        <GroupsHealth
+            Main="5"
+            Breakable1="0.5"
+            Breakable2="0.5"
+            Breakable3="1.25"
+            Breakable4="1.25"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Cabins']"
+        _SelectorKeys="Name"
+        Name="DT_CruiserCab03"
+        Class="Cabin"
+        ModelFile="DT_CruiserCab03"
+        ResourceType="DT_CRUISER_CABIN"
+        NodeScale="1 1 1"
+        Durability="190"
+        DurCoeffsForDamageTypes="15 15 5"
+        Mass="70"
+        MaxPower="1000"
+        EngineHighSound="ET_S_ENGINE_CRUISER_1_HIGH"
+        BlowEffect="ET_PS_VEH_PART_BLOW_SMALL_CAB"
+        FuelConsumption="0.4"
+        RepairCoef="0.5"
+        MaxTorque="370"
+        Price="110000"
+        MaxSpeed="170.0"
+        LoadPoints="LP_GIANT01">
+        <GadgetDescription>
+            <Slot
+                ResourceType="GADGET_COMMON"
+                MaxAmount="3"/>
+
+            <Slot
+                ResourceType="GADGET_WEAPON"
+                MaxAmount="3"/>
+        </GadgetDescription>
+
+        <GroupsHealth
+            Main="5"
+            Breakable1="0.5"
+            Breakable2="0.5"
+            Breakable3="1.25"
+            Breakable4="1.25"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Baskets']"
+        _SelectorKeys="Name"
+        Name="DT_CruiserCargo01"
+        Class="Basket"
+        ModelFile="DT_CruiserCargo01"
+        ResourceType="DT_CRUISER_BASKET"
+        Durability="140"
+        DurCoeffsForDamageTypes="15 15 5"
+        NodeScale="1 1 1"
+        BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CARGO"
+        Price="100000"
+        RepairCoef="0.2"
+        Mass="55.0"
+        LoadPoints="LP_GIANT01 NO_LP">
+        <RepositoryDescription
+            RepositorySize="5 12">
+            <Slot
+                Name = "BASKET_GIANT_GUN"
+                Pos = "5 8"/>
+
+			<Slot
+				Name = "BASKET_SPECIAL_WEAPON"
+				Pos	= "9 11"/>                
+        </RepositoryDescription>
+
+        <GroupsHealth
+            Main="0"
+            Breakable1="1.25"
+            Breakable2="1.25"
+            Breakable3="0.5"
+            Breakable4="0.5"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Baskets']"
+        _SelectorKeys="Name"
+        Class="Basket"
+        Name="DT_CruiserCargo02"
+        ModelFile="DT_CruiserCargo02"
+        ResourceType="DT_CRUISER_BASKET"
+        Durability="150"
+        DurCoeffsForDamageTypes="20 20 5"
+        NodeScale="1 1 1"
+        BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CARGO"
+        Price="120000"
+        RepairCoef="0.2"
+        Mass="45.0"
+        LoadPoints="LP_BIG01 LP_SIDE01L LP_SIDE01R NO_LP">
+        <RepositoryDescription
+            RepositorySize="10 8">
+            <Slot
+                Name="BASKET_BIG_GUN_0"
+                Pos="5 0"/>
+
+            <Slot
+                Name="BASKET_SIDE_GUN_0"
+                Pos="1 9"/>
+
+			<Slot
+				Name = "BASKET_SPECIAL_WEAPON"
+				Pos	= "9 10"/>                      
+        </RepositoryDescription>
+
+        <GroupsHealth
+            Main="0"
+            Breakable1="0.3"
+            Breakable2="0.3"
+            Breakable3="0.5"
+            Breakable4="0.3"
+            Breakable5="1.25"
+            Breakable6="1.25"
+            Breakable7="1.25"
+            Breakable8="1.25"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Baskets']"
+        _SelectorKeys="Name"
+        Class="Basket"
+        Name="DT_CruiserCargo03"
+        ModelFile="DT_CruiserCargo03"
+        ResourceType="DT_CRUISER_BASKET"
+        Durability="160"
+        DurCoeffsForDamageTypes="25 20 5"
+        NodeScale="1 1 1"
+        BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CARGO"
+        Price="145000"
+        RepairCoef="0.2"
+        Mass="50.0"
+        LoadPoints="LP_BIG01 LP_GIANT01 LP_SIDE01L LP_SIDE01R NO_LP">
+		<RepositoryDescription
+			RepositorySize = "11 11">
+
+			<Slot
+				Name = "BASKET_BIG_GUN_0"
+				Pos = "5 8"/>
+
+			<Slot
+				Name = "BASKET_GIANT_GUN"
+				Pos	= "5 0"/>
+
+			<Slot
+				Name = "BASKET_SIDE_GUN_0"
+				Pos = "1 9"/>
+
+			<Slot
+				Name = "BASKET_SPECIAL_WEAPON"
+				Pos	= "9 10"/>
+		</RepositoryDescription>
+
+        <GroupsHealth
+            Main="0"
+            Breakable1="0.3"
+            Breakable2="0.3"
+            Breakable3="0.5"
+            Breakable4="0.3"
+            Breakable5="1.25"
+            Breakable6="1.25"
+            Breakable7="1.25"
+            Breakable8="1.25"/>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+		Class="Wheel"
+		Name="DT_CruiserWheel01l"
+		ModelFile="DT_CruiserWheel01l"
+		NodeScale="1 1 1"
+		Mass="17"
+		SuspensionModelFile="DT_CruiserSusp01"
+		SuspensionCFM="0.0013"
+		SuspensionERP="0.25"
+		SuspensionRange	="1.0"
+		mU="1.0"
+		EffectType="BIGWHEEL" />
+
+    <Prototype
+        _Action="AddOrReplace"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+		Class="Wheel"
+		Name="DT_CruiserWheel01r"
+		ModelFile="DT_CruiserWheel01r"
+		NodeScale="1 1 1"
+		Mass="17"
+		SuspensionModelFile="DT_CruiserSusp01"
+		SuspensionCFM="0.0013"
+		SuspensionERP="0.25"
+		SuspensionRange="1.0"
+		mU="1.0"
+		EffectType="BIGWHEEL" />
+
+</Prototypes>

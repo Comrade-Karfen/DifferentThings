@@ -6,7 +6,7 @@ installment: exmachina
 # required human readable info
 display_name: Different Things [Absque nota]
 description: |
-  Different Things - модификация, добавляющая в продажу автомобиль «Бульдог», а также расширяющая арсенал игрока новыми видами оружия и гаджетов. Помимо этого, мод вносит некоторые правки в баланс и геймплей, а также увеличивает разнообразие противников.
+  Different Things - модификация, добавляющая в продажу автомобили «Крейсер» и «Бульдог», а также расширяющая арсенал игрока новыми видами оружия и гаджетов. Помимо этого, мод вносит некоторые правки в баланс и геймплей, а также увеличивает разнообразие противников.
 authors: MrKarfen
 
 # optional human readable info
@@ -48,8 +48,10 @@ strict_requirements: false
 
 data_dirs:
   - "Files/00_Basic_Files/00_Data"
+  - "Files/00_Basic_Files/02_Data_Cruiser_Anota"
 merge_instructions:
   - "Files/00_Basic_Files/00_Merge.yaml"
+  - "Files/00_Basic_Files/02_Merge_Cruiser_Anota.yaml"
 
 options_base_dir: "Files/01_Options"
  

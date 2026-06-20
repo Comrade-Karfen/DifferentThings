@@ -5,8 +5,8 @@ installment: exmachina
 
 # required human readable info
 display_name: Different Things
-version: "1.4.0"
-build: "260616"
+version: "1.4.1"
+build: "260620"
 description: |
   Different Things - модификация, добавляющая в продажу автомобили «Крейсер» и «Бульдог», а также расширяющая арсенал игрока новыми видами оружия и гаджетов. Помимо этого, мод вносит некоторые правки в баланс и геймплей, а также увеличивает разнообразие противников.
 authors: MrKarfen

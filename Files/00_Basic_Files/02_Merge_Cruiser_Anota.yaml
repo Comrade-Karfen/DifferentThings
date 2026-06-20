@@ -1,0 +1,68 @@
+#gamedata
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\gamedata\_resourcetypes.xml
+  targets:  gamedata\resourcetypes.xml     
+
+  #gameobjects
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\gamedata\gameobjects\_vehicleparts.xml
+  targets:  gamedata\gameobjects\vehicleparts.xml
+
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\gamedata\gameobjects\_vehicles.xml
+  targets:  gamedata\gameobjects\vehicles.xml
+
+#if
+  #diz
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\if\diz\_model_names.xml
+  targets:  if\diz\model_names.xml
+
+  #ico_hd
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\if\ico_hd\_modelicons.xml
+  targets:  if\ico_hd\modelicons.xml
+
+  #strings
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\if\strings\_uidescription.xml
+  targets:  if\strings\uidescription.xml
+
+#models
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\models\_animmodels.xml
+  targets:  models\animmodels.xml
+
+#servers
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\servers\_servers_r1.xml
+  targets:
+    - maps\mainmenu\servers.xml
+    - maps\r1m1\servers.xml
+    - maps\r1m2\servers.xml
+    - maps\r1m3\servers.xml
+    - maps\r1m4\servers.xml
+
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\servers\_servers_r2.xml
+  targets:
+    - maps\r2m1\servers.xml
+    - maps\r2m2\servers.xml
+
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\servers\_servers_r3.xml
+  targets:
+    - maps\r3m1\servers.xml
+    - maps\r3m2\servers.xml
+
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\servers\_servers_r4.xml
+  targets:
+    - maps\r4m1\servers.xml
+    - maps\r4m2\servers.xml 
+
+#maps
+  #r2m1
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\r2m1\_dynamicscene.xml
+  targets:  maps\r2m1\dynamicscene.xml
+
+  #r2m2
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\r2m2\_dynamicscene.xml
+  targets:  maps\r2m2\dynamicscene.xml
+
+  #r3m1
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\r3m1\_dynamicscene.xml
+  targets:  maps\r3m1\dynamicscene.xml
+
+  #r4m1
+- commands: Files\00_Basic_Files\02_Merge_Cruiser_Anota\maps\r4m1\_dynamicscene.xml
+  targets:  maps\r4m1\dynamicscene.xml
