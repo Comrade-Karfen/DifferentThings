@@ -9,7 +9,7 @@
 
 ### Weapons:
 * The "Bumblebee" and "Omega" mortars have been brought to a playable state.
-* Added 10 new weapon types:
+* Added 11 new weapon types:
 
 &ensp;&ensp;&ensp; 1. American Hornet (machine gun for the small slot)
 
@@ -17,19 +17,21 @@
 
 &ensp;&ensp;&ensp; 3. Pecheneg (machine gun for the small slot)
 
-&ensp;&ensp;&ensp; 4. Imp (cannon for the small slot)
+&ensp;&ensp;&ensp; 4. M-134 (machine gun for the small slot)
 
-&ensp;&ensp;&ensp; 5. Gimlet (rocket launcher for the small slot)
+&ensp;&ensp;&ensp; 5. Imp (cannon for the small slot)
 
-&ensp;&ensp;&ensp; 6. Browning (machine gun for the medium slot)
+&ensp;&ensp;&ensp; 6. Gimlet (rocket launcher for the small slot)
 
-&ensp;&ensp;&ensp; 7. Bastard (shotgun for the medium slot)
+&ensp;&ensp;&ensp; 7. Browning (machine gun for the medium slot)
 
-&ensp;&ensp;&ensp; 8. Ares (plasma cannon for the medium slot, based on the Auto-Stop from "Hard Truck Apocalypse: Rise of Clans")
+&ensp;&ensp;&ensp; 8. Bastard (shotgun for the medium slot)
 
-&ensp;&ensp;&ensp; 9. Bofors (anti-aircraft autocannon for the giant slot)
+&ensp;&ensp;&ensp; 9. Ares (plasma cannon for the medium slot, based on the Auto-Stop from "Hard Truck Apocalypse: Rise of Clans")
 
-&ensp;&ensp;&ensp; 10. Trapper (rocket launcher for the giant slot)
+&ensp;&ensp;&ensp; 10. Bofors (anti-aircraft autocannon for the giant slot)
+
+&ensp;&ensp;&ensp; 11. Trapper (rocket launcher for the giant slot)
 
 ### Other:
 * Added Anti-Missile Defense to shops.

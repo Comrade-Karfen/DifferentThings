@@ -10,7 +10,7 @@
         NodeScale				= "1 1 1"
         Mass					= "1.0"
 
-        Price					= "5150"
+        Price					= "3700"
         BulletPrototype			= "raybullet"
         ExplosionType			= "MACHINEGUN"
         FiringEffect			= "none"
@@ -18,12 +18,12 @@
         Decal					= "DC_SML_MACHINEGUN"
 
         ChargeSize				= "150"
-        RechargingTime			= "8"
+        RechargingTime			= "5"
 
         Durability				= "15"
 
-        Damage					= "5"
-        FiringRate				= "1000"
+        Damage					= "4"
+        FiringRate				= "1100"
         GroupingAngle			= "0.9"
         FiringRange				= "400"
         RecoilForce				= "60"/>
