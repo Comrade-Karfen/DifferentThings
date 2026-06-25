@@ -22,6 +22,12 @@
     <string
         _Action="AddOrReplace"
         _SelectorKeys="id"
+        id="m134_diz"
+        value="The machine gun is a scaled-down replica of the &quot;Vulcan&quot; for a smaller weapon slot."/>
+
+    <string
+        _Action="AddOrReplace"
+        _SelectorKeys="id"
         id="hunterLauncher_diz"
         value="A cheap analogue of the &quot;Dragon&quot; rocket launcher."/>
 

@@ -70,6 +70,20 @@
         _Action="Add"
         _ParentXPath="AnimatedModelsServer"
         _SelectorKeys="id"
+        id="m134"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="m134gun"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
         id="ares01"
         file="data\models\AnimModels.xml"/>
 

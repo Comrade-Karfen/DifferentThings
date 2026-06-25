@@ -104,7 +104,14 @@
         _SelectorKeys="id,locForm"
         id="bulldogCargo02"
         locForm="0"
-        value="ящик"/>
+        value="ящик"/>z
+
+    <Item
+        _Action="AddOrReplace"
+        _SelectorKeys="id,locForm"
+        id="m134"
+        locForm="0"
+        value="M-134"/>
 
     <Item
         _Action="AddOrReplace"
@@ -161,20 +168,6 @@
         id="hornetA01"
         locForm="0"
 		value="јмериканский Ўершень" />		
-
-    <Item
-        _Action="AddOrReplace"
-        _SelectorKeys="id,locForm"
-        id="vulcan02"
-        locForm="0"
-		value="¬улкан-MK2" />
-
-    <Item
-        _Action="AddOrReplace"
-        _SelectorKeys="id,locForm"
-        id="rapier02"
-        locForm="0"
-		value="“риплет" />
 
     <Item
         _Action="AddOrReplace"

@@ -44,7 +44,7 @@
 
 	<Reply
 		name="Dlg_npc_000036"
-		text="Могу продать её тебе за 10 000 монет. Берёшь?"
+		text="Могу продать её тебе за 5 000 монет. Берёшь?"
 		role="NPC"
 		scriptCondition="DT_GetCurrentLevelNumber() == 4"
 		nextReplies="Dlg_pl_000041 Dlg_pl_000033" />
@@ -53,12 +53,12 @@
 		name="Dlg_pl_000041"
 		text="Конечно, вот деньги."
 		role="PLAYER"
-		scriptCondition="GetPlayerMoney() >= 10000 "
-		scriptResult="GetCurNpc():SetSpokenCount(1); ShowMap(); SetVar('KnownMap',1); AddPlayerMoney(-10000); ConversationWnd:EndConversation() " />
+		scriptCondition="GetPlayerMoney() >= 5000 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); ShowMap(); SetVar('KnownMap',1); AddPlayerMoney(-5000); ConversationWnd:EndConversation() " />
 
 	<Reply
 		name="Dlg_npc_000034"
-		text="Могу продать её тебе за 5 000 монет. Берёшь?"
+		text="Могу продать её тебе за 2 000 монет. Берёшь?"
 		role="NPC"
 		scriptCondition="(DT_GetCurrentLevelNumber() == 2) or (DT_GetCurrentLevelNumber() == 3)"
 		nextReplies="Dlg_pl_000039 Dlg_pl_000033" />
@@ -67,8 +67,8 @@
 		name="Dlg_pl_000039"
 		text="Конечно, вот деньги."
 		role="PLAYER"
-		scriptCondition="GetPlayerMoney() >= 5000 "
-		scriptResult="GetCurNpc():SetSpokenCount(1); ShowMap(); SetVar('KnownMap',1); AddPlayerMoney(-5000); ConversationWnd:EndConversation() " />
+		scriptCondition="GetPlayerMoney() >= 2000 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); ShowMap(); SetVar('KnownMap',1); AddPlayerMoney(-2000); ConversationWnd:EndConversation() " />
 
 	<Reply
 		name="Dlg_npc_000031"

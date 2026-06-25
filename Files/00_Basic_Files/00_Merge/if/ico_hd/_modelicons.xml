@@ -101,6 +101,13 @@
     <Item
         _Action="Add"
         _SelectorKeys="id"
+        id="m134"
+        file="data\if\ico_hd\InventoryDlg\weapon\m134.dds"
+        file1="data\if\ico_hd\InventoryDlg\weapon\m134_min.dds"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
         id="ares01"
         file="data\if\ico_hd\InventoryDlg\weapon\ares01.dds"
         file1="data\if\ico_hd\InventoryDlg\weapon\ares01_min.dds"/>

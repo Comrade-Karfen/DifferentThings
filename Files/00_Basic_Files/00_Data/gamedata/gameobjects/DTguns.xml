@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 
 <Prototypes>
+
+    <Prototype
+        Class					= "BulletLauncher"
+        Name					= "m134"
+        ModelFile				= "m134"
+        ResourceType			= "SMALL_GUN"
+        NodeScale				= "1 1 1"
+        Mass					= "1.0"
+
+        Price					= "5150"
+        BulletPrototype			= "raybullet"
+        ExplosionType			= "MACHINEGUN"
+        FiringEffect			= "none"
+        FiringType				= "MachineGun"
+        Decal					= "DC_SML_MACHINEGUN"
+
+        ChargeSize				= "150"
+        RechargingTime			= "8"
+
+        Durability				= "15"
+
+        Damage					= "5"
+        FiringRate				= "1000"
+        GroupingAngle			= "0.9"
+        FiringRange				= "400"
+        RecoilForce				= "60"/>
+
 	<Prototype
 		Class					= "BulletLauncher"
 		Name					= "fly01"
